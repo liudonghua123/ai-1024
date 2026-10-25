@@ -1,4 +1,5 @@
 import RagPipelineDemo from '../components/RagPipelineDemo.jsx'
+import PageTitle from '../components/PageTitle.jsx'
 import Flow from '../components/Flow.jsx'
 import Quiz from '../components/Quiz.jsx'
 
@@ -21,7 +22,7 @@ answer = llm.generate(prompt)`
 export default function RAG() {
   return (
     <div className="fade-in">
-      <h1 className="hero-title" style={{ fontSize: 'clamp(26px,4vw,40px)' }}>📚 RAG：先查资料再开口</h1>
+      <PageTitle icon='rag'>RAG：先查资料再开口</PageTitle>
       <p className="body-text">
         LLM 知识停留在训练截止日、不知道你的私有数据、还爱一本正经地编——
         <strong>检索增强生成（RAG）</strong>就是这三连击的解药：回答之前先去知识库里检索相关资料，

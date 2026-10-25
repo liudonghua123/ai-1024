@@ -89,10 +89,10 @@ export default function TokenStream() {
             ))}
           </span>
         )}
-        {!current && !running && stepRef.current >= CANDIDATES.length && <span style={{ color: 'var(--ok)', fontSize: 14 }}>✔ 生成完毕（EOS）</span>}
+        {!current && !running && stepRef.current >= CANDIDATES.length && <span style={{ color: 'var(--ok)', fontSize: 14 }}> 生成完毕（EOS）</span>}
       </div>
       <button className="quiz-option" style={{ width: 'auto', marginTop: 12, padding: '8px 18px' }} onClick={start}>
-        {running ? '生成中…' : stepRef.current >= CANDIDATES.length ? '🔄 重新生成' : '▶ 开始生成'}
+        {running ? '生成中…' : stepRef.current >= CANDIDATES.length ? '重新生成' : '开始生成'}
       </button>
       <style>{`.cursor-blink { animation: blink 0.8s steps(2) infinite; }`}</style>
     </div>

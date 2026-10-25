@@ -1,0 +1,1927 @@
+{
+ "url": "http://127.0.0.1:4321/#/transformer",
+ "at": "2026-10-25T17:47:50.867Z",
+ "allow": [
+  "covered-text"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.41,
+    0.53,
+    0.67,
+    0.69
+   ],
+   "motion": {
+    "elements": 66,
+    "css": 1,
+    "transitions": 65,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 2934,
+     "screens": 3.3,
+     "words": 237,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 32,
+     "sections": 0,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Transformer：一切的地基",
+     "words": 1,
+     "chars": 17,
+     "lines": 1,
+     "size": 40,
+     "vw": 2.8,
+     "font": "PingFang SC",
+     "weight": 700,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 115,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Transformer：一切的地基",
+     "words": 1,
+     "lines": 1,
+     "size": 40,
+     "font": "PingFang SC"
+    },
+    "headings": [
+     {
+      "text": "Transformer：一切的地基",
+      "words": 1,
+      "chars": 17,
+      "lines": 1,
+      "size": 40,
+      "vw": 2.8,
+      "font": "PingFang SC",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.33,
+      "top": 115,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "PingFang SC",
+       "share": 0.69,
+       "mono": false
+      },
+      {
+       "family": "Cascadia Code",
+       "share": 0.26,
+       "mono": true
+      },
+      {
+       "family": "Arial",
+       "share": 0.05,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      26,
+      40
+     ],
+     "sizeCount": 11,
+     "notLoaded": [],
+     "body": {
+      "font": "PingFang SC",
+      "size": 15.5,
+      "leading": 1.9,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.5
+     },
+     "measureChars": 133,
+     "max": {
+      "size": 40,
+      "vw": 2.8,
+      "font": "PingFang SC",
+      "text": "Transformer：一切的地基"
+     },
+     "monoShare": 0.26,
+     "monoProseShare": 0.05,
+     "monoFamilies": [
+      "Cascadia Code"
+     ],
+     "monoSamples": [
+      "Q \\ K",
+      "机器",
+      "学习",
+      "模型",
+      "在",
+      "数据"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.08,
+     "centerShare": 0.13,
+     "smallText": 5
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0a0e14",
+     "bodyBgHsl": {
+      "h": 216,
+      "s": 0.33,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#131b26",
+       "top": 758,
+       "hsl": {
+        "h": 215,
+        "s": 0.33,
+        "l": 0.11
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#8fa3bd",
+       "share": 0.54
+      },
+      {
+       "color": "#b8d4f0",
+       "share": 0.2
+      },
+      {
+       "color": "#dce6f2",
+       "share": 0.16
+      },
+      {
+       "color": "#eef4fb",
+       "share": 0.05
+      },
+      {
+       "color": "#0a0e14",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#182230",
+      "hsl": {
+       "h": 215,
+       "s": 0.33,
+       "l": 0.14
+      },
+      "fg": "#38e1ff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 3,
+     "radius": 8,
+     "height": 36,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "地基 ▾",
+      "切到英文"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 1,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "footer.footer → rgb(34, 48, 71) 0px -1px 0px 0px"
+     ],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 7,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 7,
+     "boxRadius": 14,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 5,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 758
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 12,
+     "fixed": true,
+     "height": 66,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": []
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 2934,
+    "margins": {
+     "left": 130,
+     "right": 84
+    },
+    "sections": [
+     {
+      "sel": "div.card",
+      "tag": "div",
+      "top": 758,
+      "height": 445,
+      "words": 28,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "自注意力热力图 · 点我看看注意力在看谁",
+       "size": 18,
+       "tag": "h3"
+      },
+      "left": 229,
+      "right": 229,
+      "textLeft": 229,
+      "textRight": 243,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.card",
+      "tag": "div",
+      "top": 1304,
+      "height": 163,
+      "words": 35,
+      "media": 0,
+      "middle": 23,
+      "heading": null,
+      "left": 229,
+      "right": 257,
+      "textLeft": 229,
+      "textRight": 257,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.card",
+      "tag": "div",
+      "top": 1481,
+      "height": 163,
+      "words": 17,
+      "media": 0,
+      "middle": 50,
+      "heading": null,
+      "left": 229,
+      "right": 355,
+      "textLeft": 229,
+      "textRight": 355,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "pre.code-block",
+      "tag": "pre",
+      "top": 1745,
+      "height": 298,
+      "words": 54,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 225,
+      "right": 655,
+      "textLeft": 225,
+      "textRight": 655,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.table-scroll",
+      "tag": "div",
+      "top": 2144,
+      "height": 250,
+      "words": 15,
+      "media": 0,
+      "middle": 79,
+      "heading": null,
+      "left": 219,
+      "right": 487,
+      "textLeft": 219,
+      "textRight": 487,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.card",
+      "tag": "div",
+      "top": 2408,
+      "height": 387,
+      "words": 12,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "随堂测验",
+       "size": 18,
+       "tag": "h3"
+      },
+      "left": 229,
+      "right": 229,
+      "textLeft": 229,
+      "textRight": 825,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Transformer：一切的地基",
+      "size": 40,
+      "top": 115,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 224,
+      "n": 8
+     },
+     {
+      "x": 204,
+      "n": 3
+     },
+     {
+      "x": 284,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 12,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.11,
+    "voidBox": {
+     "x": 0,
+     "y": 120,
+     "w": 180,
+     "h": 780
+    }
+   },
+   "app": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "dark": true,
+    "ground": "#0a0e14",
+    "sidebar": null,
+    "topbar": {
+     "h": 66
+    },
+    "canvas": {
+     "left": 62,
+     "right": 38
+    },
+    "hero": {
+     "text": "Transformer：一切的地基",
+     "words": 1,
+     "chars": 17,
+     "lines": 1,
+     "size": 40,
+     "vw": 2.8,
+     "font": "PingFang SC",
+     "weight": 700,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 115,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 7,
+     "firstScreen": 3,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 7,
+     "radii": [
+      [
+       14,
+       4
+      ],
+      [
+       12,
+       3
+      ]
+     ],
+     "heavyBorders": 1,
+     "borderSamples": [
+      "#7c5cff on #131b26 (3.99:1)"
+     ],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 2,
+     "hues": 1,
+     "samples": [
+      {
+       "hue": 215,
+       "size": 40,
+       "radius": "10px"
+      },
+      {
+       "hue": 215,
+       "size": 64,
+       "radius": "16px"
+      }
+     ]
+    },
+    "numbers": {
+     "cells": 0,
+     "leftAligned": 0,
+     "figures": 0,
+     "tabularShare": null,
+     "kpiMax": null
+    },
+    "rows": {
+     "count": 12,
+     "median": 30
+    },
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.13,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      26,
+      40
+     ]
+    },
+    "title": {
+     "text": "Transformer：一切的地基",
+     "size": 40,
+     "top": 115
+    },
+    "colourShare": 0.004
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    0.61,
+    0.8,
+    0.84
+   ],
+   "motion": {
+    "elements": 66,
+    "css": 1,
+    "transitions": 65,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 2781,
+     "screens": 2.7,
+     "words": 229,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 32,
+     "sections": 0,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 1,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Transformer：一切的地基",
+     "words": 1,
+     "chars": 17,
+     "lines": 1,
+     "size": 31,
+     "vw": 4,
+     "font": "PingFang SC",
+     "weight": 700,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 92,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Transformer：一切的地基",
+     "words": 1,
+     "lines": 1,
+     "size": 30.7,
+     "font": "PingFang SC"
+    },
+    "headings": [
+     {
+      "text": "Transformer：一切的地基",
+      "words": 1,
+      "chars": 17,
+      "lines": 1,
+      "size": 30.7,
+      "vw": 4,
+      "font": "PingFang SC",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 92,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "PingFang SC",
+       "share": 0.7,
+       "mono": false
+      },
+      {
+       "family": "Cascadia Code",
+       "share": 0.26,
+       "mono": true
+      },
+      {
+       "family": "Arial",
+       "share": 0.03,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      22,
+      31
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "PingFang SC",
+      "size": 15.5,
+      "leading": 1.9,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.5
+     },
+     "measureChars": 95,
+     "max": {
+      "size": 30.7,
+      "vw": 4,
+      "font": "PingFang SC",
+      "text": "Transformer：一切的地基"
+     },
+     "monoShare": 0.26,
+     "monoProseShare": 0.06,
+     "monoFamilies": [
+      "Cascadia Code"
+     ],
+     "monoSamples": [
+      "Q \\ K",
+      "机器",
+      "学习",
+      "模型",
+      "在",
+      "数据"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.08,
+     "centerShare": 0.15,
+     "smallText": 7
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0a0e14",
+     "bodyBgHsl": {
+      "h": 216,
+      "s": 0.33,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#131b26",
+       "top": 797,
+       "hsl": {
+        "h": 215,
+        "s": 0.33,
+        "l": 0.11
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#8fa3bd",
+       "share": 0.54
+      },
+      {
+       "color": "#b8d4f0",
+       "share": 0.21
+      },
+      {
+       "color": "#dce6f2",
+       "share": 0.16
+      },
+      {
+       "color": "#eef4fb",
+       "share": 0.05
+      },
+      {
+       "color": "#0a0e14",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#182230",
+      "hsl": {
+       "h": 215,
+       "s": 0.33,
+       "l": 0.14
+      },
+      "fg": "#8fa3bd"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 1,
+     "radius": 10,
+     "height": 46,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "切到英文"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 1,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "footer.footer → rgb(34, 48, 71) 0px -1px 0px 0px"
+     ],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 7,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 7,
+     "boxRadius": 14,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 60,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": []
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 2781,
+    "margins": {
+     "left": 16,
+     "right": 29
+    },
+    "sections": [
+     {
+      "sel": "div.card",
+      "tag": "div",
+      "top": 797,
+      "height": 433,
+      "words": 28,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "自注意力热力图 · 点我看看注意力在看谁",
+       "size": 18,
+       "tag": "h3"
+      },
+      "left": 33,
+      "right": 33,
+      "textLeft": 33,
+      "textRight": 48,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.card",
+      "tag": "div",
+      "top": 1309,
+      "height": 143,
+      "words": 28,
+      "media": 0,
+      "middle": 10,
+      "heading": null,
+      "left": 33,
+      "right": 33,
+      "textLeft": 33,
+      "textRight": 33,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.card",
+      "tag": "div",
+      "top": 1466,
+      "height": 143,
+      "words": 17,
+      "media": 0,
+      "middle": 32,
+      "heading": null,
+      "left": 33,
+      "right": 40,
+      "textLeft": 33,
+      "textRight": 40,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "pre.code-block",
+      "tag": "pre",
+      "top": 1688,
+      "height": 261,
+      "words": 54,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 33,
+      "right": 239,
+      "textLeft": 33,
+      "textRight": 239,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.table-scroll",
+      "tag": "div",
+      "top": 2028,
+      "height": 222,
+      "words": 15,
+      "media": 0,
+      "middle": 34,
+      "heading": null,
+      "left": 27,
+      "right": 99,
+      "textLeft": 27,
+      "textRight": 99,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.card",
+      "tag": "div",
+      "top": 2264,
+      "height": 375,
+      "words": 12,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "随堂测验",
+       "size": 18,
+       "tag": "h3"
+      },
+      "left": 33,
+      "right": 33,
+      "textLeft": 33,
+      "textRight": 349,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Transformer：一切的地基",
+      "size": 31,
+      "top": 92,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 33,
+      "n": 8
+     },
+     {
+      "x": 16,
+      "n": 3
+     },
+     {
+      "x": 80,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 12,
+    "bodySize": 12,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "dark": true,
+    "ground": "#0a0e14",
+    "sidebar": null,
+    "topbar": {
+     "h": 60
+    },
+    "canvas": {
+     "left": 16,
+     "right": 8
+    },
+    "hero": {
+     "text": "Transformer：一切的地基",
+     "words": 1,
+     "chars": 17,
+     "lines": 1,
+     "size": 31,
+     "vw": 4,
+     "font": "PingFang SC",
+     "weight": 700,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 92,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 8,
+     "firstScreen": 4,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 8,
+     "radii": [
+      [
+       14,
+       4
+      ],
+      [
+       12,
+       3
+      ],
+      [
+       0,
+       1
+      ]
+     ],
+     "heavyBorders": 1,
+     "borderSamples": [
+      "#7c5cff on #131b26 (3.99:1)"
+     ],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 3,
+     "hues": 1,
+     "samples": [
+      {
+       "hue": 215,
+       "size": 40,
+       "radius": "10px"
+      },
+      {
+       "hue": 215,
+       "size": 40,
+       "radius": "10px"
+      },
+      {
+       "hue": 215,
+       "size": 52,
+       "radius": "13px"
+      }
+     ]
+    },
+    "numbers": {
+     "cells": 0,
+     "leftAligned": 0,
+     "figures": 0,
+     "tabularShare": null,
+     "kpiMax": null
+    },
+    "rows": {
+     "count": 12,
+     "median": 30
+    },
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.37,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      22,
+      31
+     ]
+    },
+    "title": {
+     "text": "Transformer：一切的地基",
+     "size": 31,
+     "top": 92
+    },
+    "colourShare": 0.022
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.71,
+    0.83,
+    0.86,
+    0.81
+   ],
+   "motion": {
+    "elements": 66,
+    "css": 1,
+    "transitions": 65,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 3303,
+     "screens": 3.9,
+     "words": 229,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 32,
+     "sections": 0,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 4,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Transformer：一切的地基",
+     "words": 1,
+     "chars": 17,
+     "lines": 2,
+     "size": 27,
+     "vw": 6.9,
+     "font": "PingFang SC",
+     "weight": 700,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 82,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "Transformer：一切的地基",
+     "words": 1,
+     "lines": 2,
+     "size": 27,
+     "font": "PingFang SC"
+    },
+    "headings": [
+     {
+      "text": "Transformer：一切的地基",
+      "words": 1,
+      "chars": 17,
+      "lines": 2,
+      "size": 27,
+      "vw": 6.9,
+      "font": "PingFang SC",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.75,
+      "top": 82,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "它解决了什么问题？",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "PingFang SC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 343,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "注意力是怎么算的？",
+      "words": 1,
+      "chars": 9,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "PingFang SC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 901,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "整体流程图",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "PingFang SC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1717,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "30 行看懂核心代码",
+      "words": 2,
+      "chars": 10,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "PingFang SC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2096,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "关键概念速查",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "PingFang SC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2436,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 6,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "PingFang SC",
+       "share": 0.7,
+       "mono": false
+      },
+      {
+       "family": "Cascadia Code",
+       "share": 0.26,
+       "mono": true
+      },
+      {
+       "family": "Arial",
+       "share": 0.03,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      22,
+      27
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "PingFang SC",
+      "size": 15.5,
+      "leading": 1.9,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.5
+     },
+     "measureChars": 46,
+     "max": {
+      "size": 27,
+      "vw": 6.9,
+      "font": "PingFang SC",
+      "text": "Transformer：一切的地基"
+     },
+     "monoShare": 0.26,
+     "monoProseShare": 0.06,
+     "monoFamilies": [
+      "Cascadia Code"
+     ],
+     "monoSamples": [
+      "Q \\ K",
+      "机器",
+      "学习",
+      "模型",
+      "在",
+      "数据"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.08,
+     "centerShare": 0.15,
+     "smallText": 7
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0a0e14",
+     "bodyBgHsl": {
+      "h": 216,
+      "s": 0.33,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#131b26",
+       "top": 1105,
+       "hsl": {
+        "h": 215,
+        "s": 0.33,
+        "l": 0.11
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#8fa3bd",
+       "share": 0.54
+      },
+      {
+       "color": "#b8d4f0",
+       "share": 0.21
+      },
+      {
+       "color": "#dce6f2",
+       "share": 0.16
+      },
+      {
+       "color": "#eef4fb",
+       "share": 0.05
+      },
+      {
+       "color": "#0a0e14",
+       "share": 0.03
+      }
+     ],
+     "button": {
+      "bg": "#182230",
+      "hsl": {
+       "h": 215,
+       "s": 0.33,
+       "l": 0.14
+      },
+      "fg": "#8fa3bd"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 0,
+     "radius": 10,
+     "height": 46,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 1,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "footer.footer → rgb(34, 48, 71) 0px -1px 0px 0px"
+     ],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 7,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 7,
+     "boxRadius": 14,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 58,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": []
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 3303,
+    "margins": {
+     "left": 16,
+     "right": 16
+    },
+    "sections": [
+     {
+      "sel": "p.body-text",
+      "tag": "p",
+      "top": 160,
+      "height": 147,
+      "words": 20,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 16,
+      "right": 19,
+      "textLeft": 16,
+      "textRight": 19,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.tag-grid",
+      "tag": "div",
+      "top": 493,
+      "height": 236,
+      "words": 11,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "① 无法并行",
+       "size": 15,
+       "tag": "h4"
+      },
+      "left": 35,
+      "right": 37,
+      "textLeft": 35,
+      "textRight": 37,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "p.body-text",
+      "tag": "p",
+      "top": 944,
+      "height": 147,
+      "words": 19,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 16,
+      "right": 24,
+      "textLeft": 16,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.card",
+      "tag": "div",
+      "top": 1105,
+      "height": 576,
+      "words": 27,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "自注意力热力图 · 点我看看注意力在看谁",
+       "size": 18,
+       "tag": "h3"
+      },
+      "left": 33,
+      "right": 33,
+      "textLeft": 33,
+      "textRight": 33,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.card",
+      "tag": "div",
+      "top": 1760,
+      "height": 143,
+      "words": 16,
+      "media": 0,
+      "middle": 10,
+      "heading": null,
+      "left": 33,
+      "right": 33,
+      "textLeft": 33,
+      "textRight": 33,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.card",
+      "tag": "div",
+      "top": 1917,
+      "height": 143,
+      "words": 9,
+      "media": 0,
+      "middle": 10,
+      "heading": null,
+      "left": 33,
+      "right": 33,
+      "textLeft": 33,
+      "textRight": 33,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "pre.code-block",
+      "tag": "pre",
+      "top": 2139,
+      "height": 261,
+      "words": 54,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 33,
+      "right": 16,
+      "textLeft": 33,
+      "textRight": 16,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.table-scroll",
+      "tag": "div",
+      "top": 2479,
+      "height": 264,
+      "words": 15,
+      "media": 0,
+      "middle": 26,
+      "heading": null,
+      "left": 27,
+      "right": 16,
+      "textLeft": 27,
+      "textRight": 16,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.card",
+      "tag": "div",
+      "top": 2756,
+      "height": 405,
+      "words": 12,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "随堂测验",
+       "size": 18,
+       "tag": "h3"
+      },
+      "left": 33,
+      "right": 33,
+      "textLeft": 33,
+      "textRight": 33,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Transformer：一切的地基",
+      "size": 27,
+      "top": 82,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 33,
+      "n": 8
+     },
+     {
+      "x": 16,
+      "n": 3
+     },
+     {
+      "x": 80,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 12,
+    "bodySize": 12,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "dark": true,
+    "ground": "#0a0e14",
+    "sidebar": null,
+    "topbar": {
+     "h": 58
+    },
+    "canvas": {
+     "left": 16,
+     "right": -370
+    },
+    "hero": {
+     "text": "Transformer：一切的地基",
+     "words": 1,
+     "chars": 17,
+     "lines": 2,
+     "size": 27,
+     "vw": 6.9,
+     "font": "PingFang SC",
+     "weight": 700,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 82,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 0,
+    "layout": {
+     "panels": 8,
+     "firstScreen": 3,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 8,
+     "radii": [
+      [
+       14,
+       4
+      ],
+      [
+       12,
+       3
+      ],
+      [
+       0,
+       1
+      ]
+     ],
+     "heavyBorders": 1,
+     "borderSamples": [
+      "#7c5cff on #131b26 (3.99:1)"
+     ],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 3,
+     "hues": 1,
+     "samples": [
+      {
+       "hue": 215,
+       "size": 38,
+       "radius": "10px"
+      },
+      {
+       "hue": 215,
+       "size": 38,
+       "radius": "10px"
+      },
+      {
+       "hue": 215,
+       "size": 52,
+       "radius": "13px"
+      }
+     ]
+    },
+    "numbers": {
+     "cells": 0,
+     "leftAligned": 0,
+     "figures": 0,
+     "tabularShare": null,
+     "kpiMax": null
+    },
+    "rows": {
+     "count": 12,
+     "median": 36
+    },
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.37,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      18,
+      22,
+      27
+     ]
+    },
+    "title": {
+     "text": "Transformer：一切的地基",
+     "size": 27,
+     "top": 82
+    },
+    "colourShare": 0.008
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "font-count",
+   "width": 1440,
+   "message": "3 typefaces in use (PingFang SC, Cascadia Code, Arial).",
+   "fix": "Two at most.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "below-fold",
+   "width": 1440,
+   "message": "Only 3 of 7 blocks start on the first 1440px screen.",
+   "fix": "Every block the brief names shows its header and first rows on the first desktop screen: size the headline block to its question, cap long lists with \"View all\", and put time-sensitive blocks before long tables."
+  },
+  {
+   "level": "WARN",
+   "id": "app-title-size",
+   "width": 1440,
+   "message": "The h1 is 40px (\"Transformer：一切的地基\").",
+   "fix": "An app screen is not a landing page: the title is 18-32px (20-24px on a phone)."
+  },
+  {
+   "level": "WARN",
+   "id": "icon-chips",
+   "width": 768,
+   "message": "3 icons sit in tinted squares or circles.",
+   "fix": "This is the commonest tell of a generated dashboard. Drop the tinted square: a KPI is a label and a number; an icon, if it helps, is plain and in the text colour.",
+   "alsoAt": [
+    390
+   ]
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\admin\\WorkBuddy\\2026-10-24-13-57-09\\ai-1024\\screenshots-transformer\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\admin\\WorkBuddy\\2026-10-24-13-57-09\\ai-1024\\screenshots-transformer\\desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\admin\\WorkBuddy\\2026-10-24-13-57-09\\ai-1024\\screenshots-transformer\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\admin\\WorkBuddy\\2026-10-24-13-57-09\\ai-1024\\screenshots-transformer\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\admin\\WorkBuddy\\2026-10-24-13-57-09\\ai-1024\\screenshots-transformer\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\admin\\WorkBuddy\\2026-10-24-13-57-09\\ai-1024\\screenshots-transformer\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

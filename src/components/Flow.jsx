@@ -29,7 +29,7 @@ function FlowNodeWithArrow({ node, index, arrow }) {
       {index > 0 && (
         <div className="flow-arrow pulse">
           {arrow?.label && <span className="fa-label">{arrow.label}</span>}
-          <span>➜</span>
+          <span></span>
         </div>
       )}
       <div className={`flow-node ${node.hot ? 'hot' : ''}`}>

@@ -1,4 +1,5 @@
 import ClipMatchDemo from '../components/ClipMatchDemo.jsx'
+import PageTitle from '../components/PageTitle.jsx'
 import Flow from '../components/Flow.jsx'
 import Quiz from '../components/Quiz.jsx'
 
@@ -24,7 +25,7 @@ class CLIP(torch.nn.Module):
 export default function Multimodal() {
   return (
     <div className="fade-in">
-      <h1 className="hero-title" style={{ fontSize: 'clamp(26px,4vw,40px)' }}>🌉 多模态与 CLIP：让图像和文字说同一种语言</h1>
+      <PageTitle icon='multimodal'>多模态与 CLIP：让图像和文字说同一种语言</PageTitle>
       <p className="body-text">
         前面所有主题都在处理文字或图像的"单声道"，多模态要解决的是<strong>翻译问题</strong>：
         图像的像素和文字的 token 是两种完全不同的信号，怎么让它们对上话？
@@ -41,7 +42,7 @@ export default function Multimodal() {
           { title: '文本编码器', desc: '文字 → 向量', hot: true },
           { title: '文字', desc: '"一只戴墨镜的猫"' },
         ]}
-        arrows={[{ label: '左塔' }, { label: '编码' }, { label: '拉近 ✓ 推远 ✗' }, { label: '编码' }, { label: '右塔' }]}
+        arrows={[{ label: '左塔' }, { label: '编码' }, { label: '拉近  推远 ' }, { label: '编码' }, { label: '右塔' }]}
       />
       <p className="body-text">
         训练技巧非常暴力又优雅：<strong>对比学习</strong>。拿一个 batch 的 N 对图文，构造 N×N 相似度矩阵，

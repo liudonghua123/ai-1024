@@ -21,7 +21,7 @@ export default function LoraMatmul() {
       <div style={{ fontFamily: 'var(--mono)', fontSize: 20, fontWeight: 700, color }}>{label}</div>
       <div style={{ fontSize: 12, color: 'var(--text-dim)', marginTop: 6, maxWidth: 150, lineHeight: 1.6 }}>{sub}</div>
       <div style={{ marginTop: 8, fontSize: 11, fontFamily: 'var(--mono)', color: frozen ? 'var(--text-dim)' : color }}>
-        {frozen ? '🔒 冻结' : '🔥 可训练'}
+        {frozen ? ' 冻结' : ' 可训练'}
       </div>
     </div>
   )

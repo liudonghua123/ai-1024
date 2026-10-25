@@ -1,11 +1,12 @@
 import DataFunnel from '../components/DataFunnel.jsx'
+import PageTitle from '../components/PageTitle.jsx'
 import Flow from '../components/Flow.jsx'
 import Quiz from '../components/Quiz.jsx'
 
 export default function DataOps() {
   return (
     <div className="fade-in">
-      <h1 className="hero-title" style={{ fontSize: 'clamp(26px,4vw,40px)' }}>🗄️ 数据工程：AI 的隐形地基</h1>
+      <PageTitle icon='rag'>数据工程：AI 的隐形地基</PageTitle>
       <p className="body-text">
         模型架构论文光鲜亮丽，真正决定成败的往往是没人写论文的部分：
         <strong>数据从哪来、怎么洗、怎么配比</strong>。

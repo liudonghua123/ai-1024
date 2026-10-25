@@ -1,51 +1,52 @@
 import { NavLink } from 'react-router-dom'
 import MatrixRain from '../components/MatrixRain.jsx'
 import Flow from '../components/Flow.jsx'
+import Icon, { IconBadge } from '../components/Icon.jsx'
 
 const SECTIONS = [
   {
     title: '地基：架构与表示',
     tagline: '一切的起点——卷积、注意力和向量',
     topics: [
-      { to: '/cnn', icon: '👁️', title: 'CNN 视觉革命', desc: 'AlexNet 引爆、ResNet 破百层之壁、卷积如何看世界。', fresh: true },
-      { to: '/transformer', icon: '🧲', title: 'Transformer', desc: '2017 年《Attention Is All You Need》，用注意力取代循环网络。' },
-      { to: '/embedding', icon: '🗺️', title: 'Token 与 Embedding', desc: '文字怎么变成向量？语义空间里的几何魔法。' },
-      { to: '/pretrain', icon: '🎓', title: '预训练范式', desc: 'BERT vs GPT 两种完形填空，理解与生成的分岔路。', fresh: true },
+      { to: '/cnn', icon: 'cnn', title: 'CNN 视觉革命', desc: 'AlexNet 引爆、ResNet 破百层之壁、卷积如何看世界。', fresh: true },
+      { to: '/transformer', icon: 'transformer', title: 'Transformer', desc: '2017 年《Attention Is All You Need》，用注意力取代循环网络。' },
+      { to: '/embedding', icon: 'embedding', title: 'Token 与 Embedding', desc: '文字怎么变成向量？语义空间里的几何魔法。' },
+      { to: '/pretrain', icon: 'pretrain', title: '预训练范式', desc: 'BERT vs GPT 两种完形填空，理解与生成的分岔路。', fresh: true },
     ],
   },
   {
     title: '语言模型：规模的艺术',
     tagline: '大力出奇迹的科学依据',
     topics: [
-      { to: '/llm', icon: '💬', title: 'LLM 大语言模型', desc: 'GPT 的本质：超大号文字接龙机器。' },
-      { to: '/scaling', icon: '📈', title: 'Scaling Laws', desc: '幂律曲线、Chinchilla 修正与三堵墙。', fresh: true },
-      { to: '/efficient', icon: '⚙️', title: '高效训练与微调', desc: 'ZeRO / MoE / LoRA / 蒸馏——算力的四两拨千斤。', fresh: true },
-      { to: '/dataops', icon: '🗄️', title: '数据工程', desc: '5 万亿 token 的提纯漏斗与数据配比的隐藏知识。', fresh: true },
+      { to: '/llm', icon: 'llm', title: 'LLM 大语言模型', desc: 'GPT 的本质：超大号文字接龙机器。' },
+      { to: '/scaling', icon: 'scaling', title: 'Scaling Laws', desc: '幂律曲线、Chinchilla 修正与三堵墙。', fresh: true },
+      { to: '/efficient', icon: 'efficient', title: '高效训练与微调', desc: 'ZeRO / MoE / LoRA / 蒸馏——算力的四两拨千斤。', fresh: true },
+      { to: '/dataops', icon: 'rag', title: '数据工程', desc: '5 万亿 token 的提纯漏斗与数据配比的隐藏知识。', fresh: true },
     ],
   },
   {
     title: '对齐与应用',
     tagline: '从会说到会好好说',
     topics: [
-      { to: '/rlhf', icon: '🎯', title: 'RLHF 对齐', desc: '人类反馈强化学习：有用、诚实、无害。' },
-      { to: '/rag', icon: '📚', title: 'RAG 检索增强', desc: '先查资料再开口：开卷考试可溯源。' },
+      { to: '/rlhf', icon: 'rlhf', title: 'RLHF 对齐', desc: '人类反馈强化学习：有用、诚实、无害。' },
+      { to: '/rag', icon: 'rag', title: 'RAG 检索增强', desc: '先查资料再开口：开卷考试可溯源。' },
     ],
   },
   {
     title: '视觉与多模态',
     tagline: '从 GAN 到 Sora 的图像叙事',
     topics: [
-      { to: '/stable-diffusion', icon: '🎨', title: 'Stable Diffusion', desc: '把噪声一步步"炼"成图像，潜空间省算力。' },
-      { to: '/dit', icon: '🧩', title: 'DiT', desc: 'Sora 背后的骨架：扩散主干的 Transformer 化。' },
-      { to: '/multimodal', icon: '🌉', title: '多模态与 CLIP', desc: '双塔对比学习，图文说同一种语言。' },
+      { to: '/stable-diffusion', icon: 'diffusion', title: 'Stable Diffusion', desc: '把噪声一步步"炼"成图像，潜空间省算力。' },
+      { to: '/dit', icon: 'dit', title: 'DiT', desc: 'Sora 背后的骨架：扩散主干的 Transformer 化。' },
+      { to: '/multimodal', icon: 'multimodal', title: '多模态与 CLIP', desc: '双塔对比学习，图文说同一种语言。' },
     ],
   },
   {
     title: '推理与智能体',
     tagline: '2025 之后的主战场',
     topics: [
-      { to: '/cot', icon: '⛓️', title: '思维链 CoT', desc: '"一步一步想"如何变成 o1/R1 的训练范式。', fresh: true },
-      { to: '/agent', icon: '🤖', title: 'AI Agent', desc: '工具调用 + 记忆 + ReAct 循环，从会说到会做。' },
+      { to: '/cot', icon: 'cot', title: '思维链 CoT', desc: '"一步一步想"如何变成 o1/R1 的训练范式。', fresh: true },
+      { to: '/agent', icon: 'agent', title: 'AI Agent', desc: '工具调用 + 记忆 + ReAct 循环，从会说到会做。' },
     ],
   },
 ]
@@ -73,8 +74,8 @@ export default function Home() {
           讲清楚 AI 的 {total} 个核心概念——从 AlexNet 到推理模型，一条线串起大模型的技术全景。
         </p>
         <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' }}>
-          <NavLink to="/transformer" className="hero-cta primary">🧲 从地基开始读</NavLink>
-          <NavLink to="/cot" className="hero-cta">⛓️ 直达推理前沿</NavLink>
+          <NavLink to="/transformer" className="hero-cta primary">从地基开始读</NavLink>
+          <NavLink to="/cot" className="hero-cta">直达推理前沿</NavLink>
         </div>
       </section>
 
@@ -93,7 +94,7 @@ export default function Home() {
       {SECTIONS.map(sec => (
         <div key={sec.title}>
           <h2 className="section-title">{sec.title}</h2>
-          <p style={{ color: 'var(--text-dim)', fontSize: 13.5, margin: '-8px 0 14px', fontFamily: 'var(--mono)' }}>
+          <p style={{ color: 'var(--text-dim)', fontSize: 13.5, margin: '-8px 0 14px' }}>
             {sec.tagline}
           </p>
           <div className="topic-grid">
@@ -104,10 +105,10 @@ export default function Home() {
                   fontFamily: 'var(--mono)', color: 'var(--ok)',
                   border: '1px solid var(--ok)', borderRadius: 20, padding: '2px 9px',
                 }}>NEW</span>}
-                <div className="tc-icon">{t.icon}</div>
+                <div className="tc-icon"><IconBadge name={t.icon} size={46} /></div>
                 <h3>{t.title}</h3>
                 <p>{t.desc}</p>
-                <span className="tc-go">开始阅读 →</span>
+                <span className="tc-go">开始阅读 <Icon name="arrow" size={14} /></span>
               </NavLink>
             ))}
           </div>
@@ -129,7 +130,7 @@ export default function Home() {
 
       <div className="callout warn" style={{ marginTop: 36 }}>
         <strong>为什么是 1024？</strong> 2¹⁰ = 1024，程序员最熟悉的数字之一（1 KB = 1024 B）。
-        祝伟大的主人们：代码无 BUG，显存够用，loss 平稳收敛。🐾
+        祝伟大的主人们：代码无 BUG，显存够用，loss 平稳收敛。
       </div>
     </div>
   )

@@ -1,4 +1,5 @@
 import MoERouter from '../components/MoERouter.jsx'
+import PageTitle from '../components/PageTitle.jsx'
 import LoraMatmul from '../components/LoraMatmul.jsx'
 import Flow from '../components/Flow.jsx'
 import Quiz from '../components/Quiz.jsx'
@@ -25,7 +26,7 @@ model, optimizer, _, _ = initialize(
 export default function Efficient() {
   return (
     <div className="fade-in">
-      <h1 className="hero-title" style={{ fontSize: 'clamp(26px,4vw,40px)' }}>⚙️ 高效训练与微调：算力的艺术</h1>
+      <PageTitle icon='efficient'>高效训练与微调：算力的艺术</PageTitle>
       <p className="body-text">
         大模型竞赛的隐藏战场不是算法，而是<strong>算力工程</strong>：
         同样的钱，谁能训出更大的模型、微调得更快？

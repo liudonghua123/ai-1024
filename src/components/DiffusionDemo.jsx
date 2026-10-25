@@ -85,7 +85,7 @@ export default function DiffusionDemo() {
         <canvas ref={canvasRef} style={{ borderRadius: 12, border: '1px solid var(--border)', imageRendering: 'pixelated', maxWidth: 280 }} />
         <div style={{ flex: 1, minWidth: 220 }}>
           <div style={{ fontFamily: 'var(--mono)', fontSize: 13, color: 'var(--text-dim)', marginBottom: 8 }}>
-            时间步 t = {t} / {T_MAX} &nbsp;→&nbsp; {t === 0 ? '✨ 清晰图像' : t >= T_MAX ? '🌫 纯噪声' : `噪声 ≈ ${((t / T_MAX) * 100).toFixed(0)}%`}
+            时间步 t = {t} / {T_MAX} &nbsp;→&nbsp; {t === 0 ? '清晰图像' : t >= T_MAX ? ' 纯噪声' : `噪声 ≈ ${((t / T_MAX) * 100).toFixed(0)}%`}
           </div>
           <input
             type="range" min="0" max={T_MAX} value={t}
@@ -93,7 +93,7 @@ export default function DiffusionDemo() {
             style={{ width: '100%', accentColor: '#38e1ff', cursor: 'pointer' }}
           />
           <button className="quiz-option" style={{ width: 'auto', marginTop: 12, padding: '8px 18px' }} onClick={() => { if (t === 0) setT(T_MAX); setTimeout(() => setPlaying(true), 50) }}>
-            {playing ? '⏸ 去噪中…' : '▶ 播放去噪'}
+            {playing ? '去噪中…' : '播放去噪'}
           </button>
         </div>
       </div>

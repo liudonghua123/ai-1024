@@ -83,7 +83,7 @@ export default function ConvSlide() {
           </svg>
         </div>
 
-        <div style={{ fontSize: 24, color: 'var(--accent-2)', animation: 'arrowPulse 1.2s ease-in-out infinite' }}>➜</div>
+        <div style={{ fontSize: 24, color: 'var(--accent-2)', animation: 'arrowPulse 1.2s ease-in-out infinite' }}></div>
 
         {/* 输出 */}
         <div>
@@ -111,7 +111,7 @@ export default function ConvSlide() {
         当前输出值 = <strong style={{ color: 'var(--accent)' }}>{outVal}</strong>
         （窗口第 {row + 1} 行第 {col + 1} 列）
         <button className="quiz-option" style={{ width: 'auto', margin: '0 0 0 14px', padding: '4px 14px' }} onClick={() => setPaused(p => !p)}>
-          {paused ? '▶ 继续' : '⏸ 暂停'}
+          {paused ? '继续' : '暂停'}
         </button>
       </p>
     </div>

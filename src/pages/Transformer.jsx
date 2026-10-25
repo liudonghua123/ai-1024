@@ -1,4 +1,5 @@
 import AttentionHeatmap from '../components/AttentionHeatmap.jsx'
+import PageTitle from '../components/PageTitle.jsx'
 import Flow from '../components/Flow.jsx'
 import Quiz from '../components/Quiz.jsx'
 
@@ -17,7 +18,7 @@ def self_attention(X, Wq, Wk, Wv):
 export default function Transformer() {
   return (
     <div className="fade-in">
-      <h1 className="hero-title" style={{ fontSize: 'clamp(26px,4vw,40px)' }}>🧲 Transformer：一切的地基</h1>
+      <PageTitle icon='transformer'>Transformer：一切的地基</PageTitle>
       <p className="body-text">
         2017 年 Google 那篇著名的论文标题就是宣言：<strong>《Attention Is All You Need》</strong>——
         不需要 RNN 的循环、不需要 CNN 的卷积，只用「注意力」就够了。此后 NLP、CV、语音、多模态……

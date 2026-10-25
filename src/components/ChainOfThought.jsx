@@ -5,7 +5,7 @@ const CHAIN = [
   { step: '拆解', text: '先算买来的：3 箱 × 12 个/箱 = 36 个' },
   { step: '累加', text: '原有 23 个 + 买来 36 个 = 59 个' },
   { step: '减去', text: '59 个 − 吃掉 9 个 = 50 个' },
-  { step: '结论', text: '还剩 50 个苹果 ✅' },
+  { step: '结论', text: '还剩 50 个苹果' },
 ]
 
 /**
@@ -35,10 +35,10 @@ export default function ChainOfThought() {
       <h3 className="sub-title">思维链动画 · "让我们一步一步想"</h3>
       <div style={{ display: 'flex', gap: 8, marginBottom: 16 }}>
         <button className="quiz-option" style={{ width: 'auto', margin: 0, padding: '8px 16px', borderColor: mode === 'direct' && wrong ? 'var(--accent-3)' : undefined }} onClick={() => restart('direct')}>
-          ❌ 不思考直接答
+          不思考直接答
         </button>
         <button className="quiz-option" style={{ width: 'auto', margin: 0, padding: '8px 16px', borderColor: mode === 'cot' && step >= CHAIN.length ? 'var(--ok)' : undefined }} onClick={() => restart('cot')}>
-          ✅ 思维链推理
+          思维链推理
         </button>
       </div>
 
@@ -58,7 +58,7 @@ export default function ChainOfThought() {
             <div key={i} style={{ display: 'flex', alignItems: 'stretch' }}>
               {i > 0 && (
                 <div style={{ display: 'flex', alignItems: 'center', padding: '0 6px', color: fail ? 'var(--accent-3)' : 'var(--accent-2)', fontSize: 18 }}>
-                  {mode === 'direct' && i === CHAIN.length - 1 ? '⚡' : '➜'}
+                  {mode === 'direct' && i === CHAIN.length - 1 ? '×' : '→'}
                 </div>
               )}
               <div
@@ -74,7 +74,7 @@ export default function ChainOfThought() {
                   {c.step}
                 </div>
                 {c.text}
-                {fail && <div style={{ marginTop: 4, fontSize: 12, color: 'var(--accent-3)' }}>—— 跳步导致算错：44 ❌</div>}
+                {fail && <div style={{ marginTop: 4, fontSize: 12, color: 'var(--accent-3)' }}>—— 跳步导致算错：44</div>}
               </div>
             </div>
           )

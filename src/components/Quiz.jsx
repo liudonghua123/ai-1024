@@ -6,7 +6,7 @@ export default function Quiz({ question, options, answer, explain }) {
 
   return (
     <div className="card" style={{ borderColor: 'var(--accent-2)' }}>
-      <h3 className="sub-title">🧠 随堂测验</h3>
+      <h3 className="sub-title"> 随堂测验</h3>
       <p className="body-text" style={{ color: 'var(--text)' }}>{question}</p>
       {options.map((op, i) => {
         const isAnswer = i === answer
@@ -24,8 +24,8 @@ export default function Quiz({ question, options, answer, explain }) {
       <div className="quiz-feedback">
         {picked !== null && (
           picked === answer
-            ? `✅ 答对了！${explain}`
-            : `❌ 再想想 —— ${explain}`
+            ? `答对了！${explain}`
+            : `再想想 —— ${explain}`
         )}
       </div>
     </div>

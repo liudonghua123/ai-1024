@@ -1,4 +1,5 @@
 import ConvSlide from '../components/ConvSlide.jsx'
+import PageTitle from '../components/PageTitle.jsx'
 import ResidualFlow from '../components/ResidualFlow.jsx'
 import Flow from '../components/Flow.jsx'
 import Quiz from '../components/Quiz.jsx'
@@ -6,7 +7,7 @@ import Quiz from '../components/Quiz.jsx'
 export default function CNN() {
   return (
     <div className="fade-in">
-      <h1 className="hero-title" style={{ fontSize: 'clamp(26px,4vw,40px)' }}>👁️ CNN 与深度视觉革命</h1>
+      <PageTitle icon='cnn'>CNN 与深度视觉革命</PageTitle>
       <p className="body-text">
         在 Transformer 统一一切之前，视觉属于卷积神经网络（CNN）。
         2012 年 AlexNet 用 GPU 训练深度 CNN 横扫 ImageNet，错误率骤降 10 个百分点——

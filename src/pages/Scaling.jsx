@@ -1,4 +1,5 @@
 import ScalingCurve from '../components/ScalingCurve.jsx'
+import PageTitle from '../components/PageTitle.jsx'
 import Quiz from '../components/Quiz.jsx'
 
 const CodeScaling = `# Chinchilla 最优配比：给定算力预算 C
@@ -17,7 +18,7 @@ def chinchilla_compute(N_params, D_tokens):
 export default function Scaling() {
   return (
     <div className="fade-in">
-      <h1 className="hero-title" style={{ fontSize: 'clamp(26px,4vw,40px)' }}>📈 Scaling Laws：大力出奇迹的科学依据</h1>
+      <PageTitle icon='scaling'>Scaling Laws：大力出奇迹的科学依据</PageTitle>
       <p className="body-text">
         2020 年 OpenAI 的《Scaling Laws for Neural Language Models》回答了一个值千亿美元的问题：
         <strong>模型性能随规模如何变化？</strong> 答案：幂律——平滑、可预测、

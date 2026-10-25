@@ -34,7 +34,7 @@ export default function DataFunnel() {
               key={s.name}
               style={{
                 margin: '0 auto', width: `${width}%`, minWidth: 280,
-                background: `linear-gradient(90deg, ${s.color}22, transparent)`,
+                background: `color-mix(in srgb, ${s.color} 10%, transparent)`,
                 border: `1.5px solid ${s.color}`,
                 borderLeft: `6px solid ${s.color}`,
                 borderRadius: 10, padding: '12px 16px',

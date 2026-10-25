@@ -19,11 +19,11 @@ export default function RagPipelineDemo() {
   const PRESETS = {
     '续航多久？': {
       hits: KNOWLEDGE,
-      answer: '根据产品手册与 FAQ：AI-1024 便携版续航约 18 小时（重度使用约 9 小时），支持 65W 快充。📎 引用：产品手册 v3.pdf、FAQ.md',
+      answer: '根据产品手册与 FAQ：AI-1024 便携版续航约 18 小时（重度使用约 9 小时），支持 65W 快充。 引用：产品手册 v3.pdf、FAQ.md',
     },
     '用什么电池技术？': {
       hits: [...KNOWLEDGE].sort((a, b) => (b.id === 2 ? 1 : 0) - (a.id === 2 ? 1 : 0) || a.score - b.score),
-      answer: '发布会提到采用了新型硅碳负极电池技术。📎 引用：发布会记录',
+      answer: '发布会提到采用了新型硅碳负极电池技术。 引用：发布会记录',
     },
   }
 
@@ -64,7 +64,7 @@ export default function RagPipelineDemo() {
           }}
         />
         <button className="quiz-option" style={{ width: 'auto', margin: 0, padding: '10px 20px' }} onClick={() => run()}>
-          🔍 提问
+           提问
         </button>
         <button className="quiz-option" style={{ width: 'auto', margin: 0, padding: '10px 14px' }} onClick={() => run('续航多久？')}>
           续航多久？
@@ -120,7 +120,7 @@ export default function RagPipelineDemo() {
 
       {answer && (
         <div className="callout ok" style={{ animation: 'fadeInUp 0.5s ease both' }}>
-          <strong>🤖 回答：</strong>{answer}
+          <strong> 回答：</strong>{answer}
         </div>
       )}
     </div>

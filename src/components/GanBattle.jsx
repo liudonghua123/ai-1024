@@ -51,7 +51,7 @@ export default function GanBattle() {
               <div style={{
                 width: 74, height: 74, borderRadius: 12, margin: '0 auto 6px',
                 border: `1.5px solid ${quality > 0.7 ? 'var(--ok)' : 'var(--border)'}`,
-                background: `repeating-conic-gradient(rgba(var(--heat-rgb), ${quality}) 0% 25%, var(--panel-2) 0% 50%) 0 0/16px 16px`,
+                background: `color-mix(in srgb, rgba(var(--heat-rgb), ${quality.toFixed(2)}) 100%, var(--panel-2) ${((1 - quality) * 100).toFixed(0)}%)`,
                 imageRendering: 'pixelated',
                 filter: quality > 0.7 ? 'none' : `blur(${(1 - quality) * 3}px)`,
                 transition: 'all 0.3s',
@@ -80,7 +80,7 @@ export default function GanBattle() {
       <p style={{ textAlign: 'center', fontSize: 13, color: 'var(--text-dim)' }}>
         训练步数 {step % (STEPS + 30)} · D 准确率 <strong style={{ color: 'var(--accent-3)' }}>{dAcc.toFixed(2)}</strong>（越接近 0.5，G 越强）
         <button className="quiz-option" style={{ width: 'auto', margin: '0 0 0 14px', padding: '4px 14px' }} onClick={() => { setStep(0); setRunning(r => !r) }}>
-          {running ? '⏸ 重放' : '▶ 继续'}
+          {running ? '重放' : '继续'}
         </button>
       </p>
       <div className="callout warn">

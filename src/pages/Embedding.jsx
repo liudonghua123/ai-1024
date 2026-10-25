@@ -1,4 +1,5 @@
 import EmbeddingScatter from '../components/EmbeddingScatter.jsx'
+import PageTitle from '../components/PageTitle.jsx'
 import Flow from '../components/Flow.jsx'
 import Quiz from '../components/Quiz.jsx'
 
@@ -21,7 +22,7 @@ cos(vec_king, vec_banana)  # → 0.03  毫无关系
 export default function Embedding() {
   return (
     <div className="fade-in">
-      <h1 className="hero-title" style={{ fontSize: 'clamp(26px,4vw,40px)' }}>🗺️ Token 与 Embedding：AI 如何读懂文字</h1>
+      <PageTitle icon='embedding'>Token 与 Embedding：AI 如何读懂文字</PageTitle>
       <p className="body-text">
         计算机不认识"猫"这个字，只认识数字。所以大模型的第一步是：<strong>把文字切块（Tokenization），
         再把每块变成一串有意义的数字（Embedding）</strong>。这一步做不好，后面全白搭——

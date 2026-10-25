@@ -69,7 +69,7 @@ export default function MoERouter() {
                 transition: 'all 0.4s',
               }}
             >
-              {active ? '⚡ ' : ''}{e}
+              {active ? '·'  : ''}{e}
               {active && <div style={{ fontSize: 10, marginTop: 3, fontFamily: 'var(--mono)' }}>被激活</div>}
             </div>
           )

@@ -1,4 +1,5 @@
 import DiffusionDemo from '../components/DiffusionDemo.jsx'
+import PageTitle from '../components/PageTitle.jsx'
 import Flow from '../components/Flow.jsx'
 import Quiz from '../components/Quiz.jsx'
 
@@ -20,7 +21,7 @@ image = vae_decoder(latents)                 # 潜空间 → 像素图像`
 export default function StableDiffusion() {
   return (
     <div className="fade-in">
-      <h1 className="hero-title" style={{ fontSize: 'clamp(26px,4vw,40px)' }}>🎨 Stable Diffusion：把噪声炼成图</h1>
+      <PageTitle icon='diffusion'>Stable Diffusion：把噪声炼成图</PageTitle>
       <p className="body-text">
         前面讲了「文字接龙」，那 AI 画画是怎么画的？答案是<strong>扩散模型</strong>：
         正向过程不断给图像加噪声直到变成雪花屏；训练一个网络学会这个「加噪」的逆操作；
@@ -39,7 +40,7 @@ export default function StableDiffusion() {
           { title: 'CLIP 文本编码器', desc: '文字 → 语义向量', hot: true },
           { title: 'UNet 去噪 ×N 步', desc: '在潜空间迭代减噪', hot: true },
           { title: 'VAE Decoder', desc: '潜表示 → 512×512 图像' },
-          { title: '成品图像', desc: '🐱' },
+          { title: '成品图像', desc: '生成完毕' },
         ]}
         arrows={[{ label: '输入' }, { label: '作为条件注入' }, { label: '逐步引导' }, { label: '解码还原' }]}
       />

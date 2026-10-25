@@ -1,13 +1,13 @@
 import { useEffect, useRef, useState } from 'react'
 
 const SCRIPT = [
-  { actor: '🧠 LLM', text: '目标：查明天安门广场今天天气，然后决定文案。先调用 weather 工具。', tag: '思考' },
-  { actor: '🔧 工具', text: 'weather("北京") → 晴，22°C，紫外线强', tag: '工具调用' },
-  { actor: '🧠 LLM', text: '晴且紫外线强 → 广告文案强调"防晒出门"。再调用 search 查热门景点。', tag: '思考' },
-  { actor: '🔧 工具', text: 'search("今天热门景点") → 什刹海、奥森公园、景山', tag: '工具调用' },
-  { actor: '🧠 LLM', text: '信息足够。调用 write_draft 生成文案。', tag: '思考' },
-  { actor: '🔧 工具', text: 'write_draft(...) → "晴日限定｜什刹海的风和 22°C 的阳光都在等你，防晒出门，快乐加倍 ☀️"', tag: '工具调用' },
-  { actor: '✅ 完成', text: '任务闭环：思考 → 行动 → 观察 → 再思考 → 输出。', tag: '终止' },
+  { actor: 'LLM 大脑', text: '目标：查明天安门广场今天天气，然后决定文案。先调用 weather 工具。', tag: '思考' },
+  { actor: '工具', text: 'weather("北京") → 晴，22°C，紫外线强', tag: '工具调用' },
+  { actor: 'LLM 大脑', text: '晴且紫外线强 → 广告文案强调"防晒出门"。再调用 search 查热门景点。', tag: '思考' },
+  { actor: '工具', text: 'search("今天热门景点") → 什刹海、奥森公园、景山', tag: '工具调用' },
+  { actor: 'LLM 大脑', text: '信息足够。调用 write_draft 生成文案。', tag: '思考' },
+  { actor: '工具', text: 'write_draft(...) → "晴日限定｜什刹海的风和 22°C 的阳光都在等你，防晒出门，快乐加倍"', tag: '工具调用' },
+  { actor: '完成', text: '任务闭环：思考 → 行动 → 观察 → 再思考 → 输出。', tag: '终止' },
 ]
 
 const COLORS = { 思考: 'var(--accent)', 工具调用: 'var(--warn)', 终止: 'var(--ok)' }
@@ -63,7 +63,7 @@ export default function AgentLoopDemo() {
         style={{ width: 'auto', marginTop: 12, padding: '8px 18px' }}
         onClick={() => { if (step >= SCRIPT.length) setStep(0); setRunning(true) }}
       >
-        {running ? '⏸ 任务执行中…' : step >= SCRIPT.length ? '🔄 再跑一遍' : '▶ 启动 Agent'}
+        {running ? '任务执行中…' : step >= SCRIPT.length ? '再跑一遍' : '启动 Agent'}
       </button>
       <style>{`.cursor-blink { animation: blink 0.8s steps(2) infinite; }`}</style>
     </div>

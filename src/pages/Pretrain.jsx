@@ -1,4 +1,5 @@
 import MaskFill from '../components/MaskFill.jsx'
+import PageTitle from '../components/PageTitle.jsx'
 import Flow from '../components/Flow.jsx'
 import Quiz from '../components/Quiz.jsx'
 
@@ -23,7 +24,7 @@ loss = F.cross_entropy(logits[labels != -100], labels[labels != -100])
 export default function Pretrain() {
   return (
     <div className="fade-in">
-      <h1 className="hero-title" style={{ fontSize: 'clamp(26px,4vw,40px)' }}>🎓 预训练范式：先读万卷书</h1>
+      <PageTitle icon='pretrain'>预训练范式：先读万卷书</PageTitle>
       <p className="body-text">
         2018 年，AI 研究的关键词从"设计架构"变成了"预训练 + 微调"：
         先在海量无标注文本上自学语言，再针对具体任务微调。

@@ -1,4 +1,5 @@
 import AgentLoopDemo from '../components/AgentLoopDemo.jsx'
+import PageTitle from '../components/PageTitle.jsx'
 import Flow from '../components/Flow.jsx'
 import Quiz from '../components/Quiz.jsx'
 
@@ -26,7 +27,7 @@ def agent(task, max_steps=10):
 export default function Agent() {
   return (
     <div className="fade-in">
-      <h1 className="hero-title" style={{ fontSize: 'clamp(26px,4vw,40px)' }}>🤖 AI Agent：给大脑装上手脚</h1>
+      <PageTitle icon='agent'>AI Agent：给大脑装上手脚</PageTitle>
       <p className="body-text">
         LLM 只能"说"，不能"做"——问它今天天气，它只能编一个。
         <strong>Agent（智能体）</strong>= LLM 大脑 + 工具调用 + 记忆 + 循环调度：
@@ -38,10 +39,10 @@ export default function Agent() {
       <Flow
         label="Agent 架构拆解"
         nodes={[
-          { title: '🧠 大脑 LLM', desc: '理解 · 推理 · 决策', hot: true },
-          { title: '🔧 工具集', desc: '搜索 / 代码 / API / 文件' },
-          { title: '💾 记忆', desc: '短期上下文 + 长期向量库' },
-          { title: '🔁 调度循环', desc: 'ReAct / 规划 / 反思', hot: true },
+          { title: '大脑 LLM', desc: '理解 · 推理 · 决策', hot: true },
+          { title: '工具集', desc: '搜索 / 代码 / API / 文件' },
+          { title: '记忆', desc: '短期上下文 + 长期向量库' },
+          { title: '调度循环', desc: 'ReAct / 规划 / 反思', hot: true },
         ]}
         arrows={[{ label: '选择工具' }, { label: '存取经验' }, { label: '约束行为' }]}
       />

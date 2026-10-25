@@ -1,4 +1,5 @@
 import ChainOfThought from '../components/ChainOfThought.jsx'
+import PageTitle from '../components/PageTitle.jsx'
 import Flow from '../components/Flow.jsx'
 import Quiz from '../components/Quiz.jsx'
 
@@ -23,7 +24,7 @@ A:"""
 export default function CoT() {
   return (
     <div className="fade-in">
-      <h1 className="hero-title" style={{ fontSize: 'clamp(26px,4vw,40px)' }}>⛓️ 思维链与推理：让模型"想清楚再答"</h1>
+      <PageTitle icon='cot'>思维链与推理：让模型"想清楚再答"</PageTitle>
       <p className="body-text">
         2022 年 Google 的论文标题就是咒语本身：<strong>Chain-of-Thought Prompting</strong>。
         只需在提示词里加一句"让我们一步一步思考"，同样的模型数学题正确率翻三倍。

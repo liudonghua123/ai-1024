@@ -1,4 +1,5 @@
 import TokenStream from '../components/TokenStream.jsx'
+import PageTitle from '../components/PageTitle.jsx'
 import Flow from '../components/Flow.jsx'
 import Quiz from '../components/Quiz.jsx'
 
@@ -19,7 +20,7 @@ def generate(model, prompt, max_tokens=100, temperature=0.8):
 export default function LLM() {
   return (
     <div className="fade-in">
-      <h1 className="hero-title" style={{ fontSize: 'clamp(26px,4vw,40px)' }}>💬 大语言模型：超大规模文字接龙</h1>
+      <PageTitle icon='llm'>大语言模型：超大规模文字接龙</PageTitle>
       <p className="body-text">
         把 GPT、Claude、Gemini、DeepSeek 这些名字扒掉包装，核心就是一件事：
         <strong>给定前面的文字，预测下一个 token</strong>。听起来平平无奇，

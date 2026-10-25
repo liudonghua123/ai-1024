@@ -87,7 +87,7 @@ export default function ScalingCurve() {
       </div>
       <div style={{ display: 'flex', gap: 10, alignItems: 'center', marginTop: 4 }}>
         <button className="quiz-option" style={{ width: 'auto', margin: 0, padding: '7px 18px' }} onClick={() => { setProgress(0); setPlaying(true) }}>
-          {progress >= 1 ? '🔄 重放' : '▶ 描线中…'}
+          {progress >= 1 ? '重放' : '描线中…'}
         </button>
         <span style={{ fontSize: 13, color: 'var(--text-dim)' }}>
           2022 年 Chinchilla 修正：同等算力下，<strong style={{ color: 'var(--text)' }}>数据和参数要同比放大</strong>（70B 模型喂 1.4T token 最优）——GPT-3 那代模型其实都"吃少了"。

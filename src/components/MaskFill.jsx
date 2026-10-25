@@ -37,7 +37,7 @@ export default function MaskFill() {
             if (isMaskTarget) { label = '[MASK]'; style = { color: 'var(--warn)', borderColor: 'var(--warn)', animation: 'blink 1.2s steps(2) infinite' } }
           } else {
             visible = i < maskIdx
-            if (i === maskIdx) { label = '❓ 预测中'; style = { color: 'var(--accent)', borderColor: 'var(--accent)' } }
+            if (i === maskIdx) { label = ' 预测中'; style = { color: 'var(--accent)', borderColor: 'var(--accent)' } }
             else if (!visible) { label = '▓▓'; style = { opacity: 0.35 } }
           }
           return (

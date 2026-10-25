@@ -1,4 +1,5 @@
 import Flow from '../components/Flow.jsx'
+import PageTitle from '../components/PageTitle.jsx'
 import Quiz from '../components/Quiz.jsx'
 
 const CodeDiT = `# DiT 核心思路：把扩散模型的主干从 UNet 换成 Transformer
@@ -22,7 +23,7 @@ class DiTBlock(nn.Module):
 export default function DiT() {
   return (
     <div className="fade-in">
-      <h1 className="hero-title" style={{ fontSize: 'clamp(26px,4vw,40px)' }}>🧩 DiT：扩散模型换上 Transformer 心脏</h1>
+      <PageTitle icon='dit'>DiT：扩散模型换上 Transformer 心脏</PageTitle>
       <p className="body-text">
         2022 年底，William Peebles & Saining Xie（后来 Sora 团队的核心）干了件「排列组合」的事：
         <strong>扩散模型 + Transformer = Diffusion Transformer（DiT）</strong>。

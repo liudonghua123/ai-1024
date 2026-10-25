@@ -1,9 +1,9 @@
 import { useState } from 'react'
 
 const PAIRS = [
-  { img: '🐱', desc: '一只戴墨镜的橘猫', sim: 0.94, distract: ['一只奔跑的狗', '电动汽车', '日落海滩'] },
-  { img: '🚗', desc: '一辆红色敞篷车', sim: 0.91, distract: ['一列绿皮火车', '草莓蛋糕', '雪山日出'] },
-  { img: '🌊', desc: '夕阳下的海浪', sim: 0.89, distract: '城市夜景, 一碗牛肉面, 蓝色毛线球'.split(', ') },
+  { img: '', desc: '一只戴墨镜的橘猫', sim: 0.94, distract: ['一只奔跑的狗', '电动汽车', '日落海滩'] },
+  { img: '', desc: '一辆红色敞篷车', sim: 0.91, distract: ['一列绿皮火车', '草莓蛋糕', '雪山日出'] },
+  { img: '', desc: '夕阳下的海浪', sim: 0.89, distract: '城市夜景, 一碗牛肉面, 蓝色毛线球'.split(', ') },
 ]
 
 /** CLIP 对齐演示：点击图像，看它与各文本描述的相似度 */
@@ -55,13 +55,13 @@ export default function ClipMatchDemo() {
               <div style={{ flex: 1, height: 8, borderRadius: 4, background: 'var(--border)', overflow: 'hidden' }}>
                 <div style={{ width: `${sim * 100}%`, height: '100%', background: match ? 'var(--ok)' : 'var(--text-dim)', borderRadius: 4, transition: 'width 0.6s ease' }} />
               </div>
-              <span style={{ color: match ? 'var(--text)' : 'var(--text-dim)', minWidth: 0 }}>{match && '✓ '}{d}</span>
+              <span style={{ color: match ? 'var(--text)' : 'var(--text-dim)', minWidth: 0 }}>{match && ' '}{d}</span>
             </div>
           )
         })}
       </div>
       <p style={{ marginTop: 10, fontSize: 13, color: 'var(--text-dim)' }}>
-        👆 正确描述的相似度显著高于干扰项 —— 这就是 CLIP 学到的图文对齐能力。
+         正确描述的相似度显著高于干扰项 —— 这就是 CLIP 学到的图文对齐能力。
       </p>
     </div>
   )

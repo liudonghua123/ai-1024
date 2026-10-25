@@ -1,0 +1,2038 @@
+{
+ "url": "http://127.0.0.1:4321/",
+ "at": "2026-10-25T17:47:07.520Z",
+ "allow": [
+  "covered-text"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.3,
+    0.53,
+    0.58,
+    0.54
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 1,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 2875,
+     "screens": 3.2,
+     "words": 209,
+     "img": 0,
+     "video": 0,
+     "canvas": 1,
+     "svg": 61,
+     "sections": 1,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 1,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "1024 程序员节 AI 核心概念科普",
+     "words": 4,
+     "chars": 19,
+     "lines": 2,
+     "size": 56,
+     "vw": 3.9,
+     "font": "PingFang SC",
+     "weight": 700,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 193,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "1024 程序员节 AI 核心概念科普",
+     "words": 4,
+     "lines": 2,
+     "size": 56,
+     "font": "PingFang SC"
+    },
+    "headings": [
+     {
+      "text": "1024 程序员节 AI 核心概念科普",
+      "words": 4,
+      "chars": 19,
+      "lines": 2,
+      "size": 56,
+      "vw": 3.9,
+      "font": "PingFang SC",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.72,
+      "top": 193,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 1,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "PingFang SC",
+       "share": 0.96,
+       "mono": false
+      },
+      {
+       "family": "Cascadia Code",
+       "share": 0.02,
+       "mono": true
+      },
+      {
+       "family": "Arial",
+       "share": 0.02,
+       "mono": false
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      26,
+      56
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "PingFang SC",
+      "size": 17,
+      "leading": 1.9,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.5
+     },
+     "measureChars": 75,
+     "max": {
+      "size": 56,
+      "vw": 3.9,
+      "font": "PingFang SC",
+      "text": "1024 程序员节AI 核心概念科普"
+     },
+     "monoShare": 0.02,
+     "monoProseShare": 0.02,
+     "monoFamilies": [
+      "Cascadia Code"
+     ],
+     "monoSamples": [
+      "NEW",
+      "NEW",
+      "NEW",
+      "NEW",
+      "NEW",
+      "NEW"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.09,
+     "centerShare": 0.21,
+     "smallText": 7
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0a0e14",
+     "bodyBgHsl": {
+      "h": 216,
+      "s": 0.33,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [],
+     "textColors": [
+      {
+       "color": "#8fa3bd",
+       "share": 0.62
+      },
+      {
+       "color": "#eef4fb",
+       "share": 0.16
+      },
+      {
+       "color": "#dce6f2",
+       "share": 0.09
+      },
+      {
+       "color": "#38e1ff",
+       "share": 0.07
+      },
+      {
+       "color": "#0a0e14",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#38e1ff",
+      "hsl": {
+       "h": 189,
+       "s": 1,
+       "l": 0.61
+      },
+      "fg": "#0a0e14"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 10,
+     "height": 43,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "从地基开始读",
+      "直达推理前沿"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 1,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "footer.footer → rgb(34, 48, 71) 0px -1px 0px 0px"
+     ],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 16,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 23,
+     "boxRadius": 14,
+     "squareMedia": 1,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 620
+      },
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 849
+      },
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 1210
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 1866
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "canvas",
+      "ratio": 0.76
+     }
+    ],
+    "nav": {
+     "links": 12,
+     "fixed": true,
+     "height": 66,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": []
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 2875,
+    "margins": {
+     "left": 130,
+     "right": 84
+    },
+    "sections": [
+     {
+      "sel": "section.hero",
+      "tag": "section",
+      "top": 106,
+      "height": 399,
+      "words": 21,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "1024 程序员节",
+       "size": 56,
+       "tag": "h1"
+      },
+      "left": 408,
+      "right": 408,
+      "textLeft": 408,
+      "textRight": 408,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 770,
+      "height": 313,
+      "words": 29,
+      "media": 0,
+      "middle": 82,
+      "heading": {
+       "text": "地基：架构与表示",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 204,
+      "right": 229,
+      "textLeft": 204,
+      "textRight": 229,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 1131,
+      "height": 291,
+      "words": 30,
+      "media": 0,
+      "middle": 62,
+      "heading": {
+       "text": "语言模型：规模的艺术",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 204,
+      "right": 229,
+      "textLeft": 204,
+      "textRight": 229,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 1470,
+      "height": 269,
+      "words": 10,
+      "media": 0,
+      "middle": 289,
+      "heading": {
+       "text": "对齐与应用",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 204,
+      "right": 482,
+      "textLeft": 204,
+      "textRight": 482,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 1787,
+      "height": 269,
+      "words": 20,
+      "media": 0,
+      "middle": 103,
+      "heading": {
+       "text": "视觉与多模态",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 204,
+      "right": 308,
+      "textLeft": 204,
+      "textRight": 308,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 2105,
+      "height": 269,
+      "words": 19,
+      "media": 0,
+      "middle": 191,
+      "heading": {
+       "text": "推理与智能体",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 204,
+      "right": 408,
+      "textLeft": 204,
+      "textRight": 408,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.card",
+      "tag": "div",
+      "top": 2475,
+      "height": 163,
+      "words": 22,
+      "media": 0,
+      "middle": 25,
+      "heading": null,
+      "left": 229,
+      "right": 437,
+      "textLeft": 229,
+      "textRight": 437,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "1024 程序员节 AI 核心概念科普",
+      "size": 56,
+      "top": 193,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 224,
+      "n": 12
+     },
+     {
+      "x": 750,
+      "n": 4
+     },
+     {
+      "x": 489,
+      "n": 2
+     },
+     {
+      "x": 1012,
+      "n": 2
+     },
+     {
+      "x": 576,
+      "n": 1
+     },
+     {
+      "x": 924,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 22,
+    "bodySize": 13,
+    "stage": true,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.11,
+    "voidBox": {
+     "x": 0,
+     "y": 120,
+     "w": 180,
+     "h": 780
+    }
+   },
+   "app": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "dark": true,
+    "ground": "#0a0e14",
+    "sidebar": null,
+    "topbar": {
+     "h": 66
+    },
+    "canvas": {
+     "left": 62,
+     "right": 28
+    },
+    "hero": {
+     "text": "1024 程序员节 AI 核心概念科普",
+     "words": 4,
+     "chars": 19,
+     "lines": 2,
+     "size": 56,
+     "vw": 3.9,
+     "font": "PingFang SC",
+     "weight": 700,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 193,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 2,
+    "layout": {
+     "panels": 23,
+     "firstScreen": 11,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 23,
+     "radii": [
+      [
+       14,
+       16
+      ],
+      [
+       12,
+       7
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 1,
+     "hues": 1,
+     "samples": [
+      {
+       "hue": 215,
+       "size": 40,
+       "radius": "10px"
+      }
+     ]
+    },
+    "numbers": {
+     "cells": 0,
+     "leftAligned": 0,
+     "figures": 7,
+     "tabularShare": 0,
+     "kpiMax": 17
+    },
+    "rows": null,
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.06,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      26,
+      56
+     ]
+    },
+    "title": {
+     "text": "1024 程序员节\nAI 核心概念科普",
+     "size": 56,
+     "top": 193
+    },
+    "colourShare": 0.01
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.46,
+    0.56,
+    0.73,
+    0.67
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 1,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 3125,
+     "screens": 3.1,
+     "words": 201,
+     "img": 0,
+     "video": 0,
+     "canvas": 1,
+     "svg": 61,
+     "sections": 1,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 1,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "1024 程序员节 AI 核心概念科普",
+     "words": 4,
+     "chars": 19,
+     "lines": 2,
+     "size": 46,
+     "vw": 6,
+     "font": "PingFang SC",
+     "weight": 700,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 151,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "1024 程序员节 AI 核心概念科普",
+     "words": 4,
+     "lines": 2,
+     "size": 46.1,
+     "font": "PingFang SC"
+    },
+    "headings": [
+     {
+      "text": "1024 程序员节 AI 核心概念科普",
+      "words": 4,
+      "chars": 19,
+      "lines": 2,
+      "size": 46.1,
+      "vw": 6,
+      "font": "PingFang SC",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 151,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 1,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "PingFang SC",
+       "share": 0.98,
+       "mono": false
+      },
+      {
+       "family": "Cascadia Code",
+       "share": 0.02,
+       "mono": true
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      22,
+      46
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "PingFang SC",
+      "size": 15,
+      "leading": 1.9,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.5
+     },
+     "measureChars": 85,
+     "max": {
+      "size": 46.1,
+      "vw": 6,
+      "font": "PingFang SC",
+      "text": "1024 程序员节AI 核心概念科普"
+     },
+     "monoShare": 0.02,
+     "monoProseShare": 0.02,
+     "monoFamilies": [
+      "Cascadia Code"
+     ],
+     "monoSamples": [
+      "NEW",
+      "NEW",
+      "NEW",
+      "NEW",
+      "NEW",
+      "NEW"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.09,
+     "centerShare": 0.23,
+     "smallText": 9
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0a0e14",
+     "bodyBgHsl": {
+      "h": 216,
+      "s": 0.33,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [],
+     "textColors": [
+      {
+       "color": "#8fa3bd",
+       "share": 0.61
+      },
+      {
+       "color": "#eef4fb",
+       "share": 0.16
+      },
+      {
+       "color": "#dce6f2",
+       "share": 0.09
+      },
+      {
+       "color": "#38e1ff",
+       "share": 0.07
+      },
+      {
+       "color": "#0a0e14",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#38e1ff",
+      "hsl": {
+       "h": 189,
+       "s": 1,
+       "l": 0.61
+      },
+      "fg": "#0a0e14"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 10,
+     "height": 43,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "从地基开始读",
+      "直达推理前沿"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 1,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "footer.footer → rgb(34, 48, 71) 0px -1px 0px 0px"
+     ],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 16,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 23,
+     "boxRadius": 14,
+     "squareMedia": 1,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 516
+      },
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 722
+      },
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 1288
+      },
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 2126
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "canvas",
+      "ratio": 0.9
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 60,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": []
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 3125,
+    "margins": {
+     "left": 16,
+     "right": 40
+    },
+    "sections": [
+     {
+      "sel": "section.hero",
+      "tag": "section",
+      "top": 84,
+      "height": 339,
+      "words": 21,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "1024 程序员节",
+       "size": 46,
+       "tag": "h1"
+      },
+      "left": 85,
+      "right": 85,
+      "textLeft": 85,
+      "textRight": 85,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 653,
+      "height": 529,
+      "words": 29,
+      "media": 0,
+      "middle": 71,
+      "heading": {
+       "text": "地基：架构与表示",
+       "size": 22,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 47,
+      "textLeft": 16,
+      "textRight": 47,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 1219,
+      "height": 507,
+      "words": 30,
+      "media": 0,
+      "middle": 62,
+      "heading": {
+       "text": "语言模型：规模的艺术",
+       "size": 22,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 40,
+      "textLeft": 16,
+      "textRight": 40,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 1762,
+      "height": 259,
+      "words": 10,
+      "media": 0,
+      "middle": 141,
+      "heading": {
+       "text": "对齐与应用",
+       "size": 22,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 146,
+      "textLeft": 16,
+      "textRight": 146,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 2057,
+      "height": 281,
+      "words": 20,
+      "media": 0,
+      "middle": 75,
+      "heading": {
+       "text": "视觉与多模态",
+       "size": 22,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 47,
+      "textLeft": 16,
+      "textRight": 47,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 2375,
+      "height": 259,
+      "words": 19,
+      "media": 0,
+      "middle": 62,
+      "heading": {
+       "text": "推理与智能体",
+       "size": 22,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 72,
+      "textLeft": 16,
+      "textRight": 72,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.card",
+      "tag": "div",
+      "top": 2713,
+      "height": 143,
+      "words": 22,
+      "media": 0,
+      "middle": 10,
+      "heading": null,
+      "left": 33,
+      "right": 94,
+      "textLeft": 33,
+      "textRight": 94,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "1024 程序员节 AI 核心概念科普",
+      "size": 46,
+      "top": 151,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 36,
+      "n": 14
+     },
+     {
+      "x": 289,
+      "n": 3
+     },
+     {
+      "x": 539,
+      "n": 3
+     },
+     {
+      "x": 414,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 22,
+    "bodySize": 13,
+    "stage": true,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "dark": true,
+    "ground": "#0a0e14",
+    "sidebar": null,
+    "topbar": {
+     "h": 60
+    },
+    "canvas": {
+     "left": 16,
+     "right": -171
+    },
+    "hero": {
+     "text": "1024 程序员节 AI 核心概念科普",
+     "words": 4,
+     "chars": 19,
+     "lines": 2,
+     "size": 46,
+     "vw": 6,
+     "font": "PingFang SC",
+     "weight": 700,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 151,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 2,
+    "layout": {
+     "panels": 24,
+     "firstScreen": 11,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 24,
+     "radii": [
+      [
+       14,
+       16
+      ],
+      [
+       12,
+       7
+      ],
+      [
+       0,
+       1
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 2,
+     "hues": 1,
+     "samples": [
+      {
+       "hue": 215,
+       "size": 40,
+       "radius": "10px"
+      },
+      {
+       "hue": 215,
+       "size": 40,
+       "radius": "10px"
+      }
+     ]
+    },
+    "numbers": {
+     "cells": 0,
+     "leftAligned": 0,
+     "figures": 7,
+     "tabularShare": 0,
+     "kpiMax": 17
+    },
+    "rows": null,
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.1,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      22,
+      46
+     ]
+    },
+    "title": {
+     "text": "1024 程序员节\nAI 核心概念科普",
+     "size": 46,
+     "top": 151
+    },
+    "colourShare": 0.016
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.61,
+    0.84,
+    0.8,
+    0.83,
+    0.76,
+    0.63
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 1,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 4727,
+     "screens": 5.6,
+     "words": 201,
+     "img": 0,
+     "video": 0,
+     "canvas": 1,
+     "svg": 61,
+     "sections": 1,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 2,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "1024 程序员节 AI 核心概念科普",
+     "words": 4,
+     "chars": 19,
+     "lines": 2,
+     "size": 27,
+     "vw": 6.9,
+     "font": "PingFang SC",
+     "weight": 700,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 166,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "h1": {
+     "text": "1024 程序员节 AI 核心概念科普",
+     "words": 4,
+     "lines": 2,
+     "size": 27,
+     "font": "PingFang SC"
+    },
+    "headings": [
+     {
+      "text": "1024 程序员节 AI 核心概念科普",
+      "words": 4,
+      "chars": 19,
+      "lines": 2,
+      "size": 27,
+      "vw": 6.9,
+      "font": "PingFang SC",
+      "weight": 700,
+      "tracking": -0.02,
+      "leading": 1.15,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 166,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "十四年技术演进",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "PingFang SC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 459,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "地基：架构与表示",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "PingFang SC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 653,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "语言模型：规模的艺术",
+      "words": 1,
+      "chars": 10,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "PingFang SC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1605,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "对齐与应用",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "PingFang SC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2512,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "视觉与多模态",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "PingFang SC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3011,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "推理与智能体",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "PingFang SC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3715,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "一条主线串起来",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 22,
+      "vw": 5.6,
+      "font": "PingFang SC",
+      "weight": 700,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4214,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 8,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 1,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "PingFang SC",
+       "share": 0.98,
+       "mono": false
+      },
+      {
+       "family": "Cascadia Code",
+       "share": 0.02,
+       "mono": true
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      22,
+      27
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "PingFang SC",
+      "size": 15,
+      "leading": 1.9,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.5
+     },
+     "measureChars": 48,
+     "max": {
+      "size": 27,
+      "vw": 6.9,
+      "font": "PingFang SC",
+      "text": "1024 程序员节AI 核心概念科普"
+     },
+     "monoShare": 0.02,
+     "monoProseShare": 0.02,
+     "monoFamilies": [
+      "Cascadia Code"
+     ],
+     "monoSamples": [
+      "NEW",
+      "NEW",
+      "NEW",
+      "NEW",
+      "NEW",
+      "NEW"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.09,
+     "centerShare": 0.23,
+     "smallText": 9
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#0a0e14",
+     "bodyBgHsl": {
+      "h": 216,
+      "s": 0.33,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [],
+     "textColors": [
+      {
+       "color": "#8fa3bd",
+       "share": 0.61
+      },
+      {
+       "color": "#eef4fb",
+       "share": 0.16
+      },
+      {
+       "color": "#dce6f2",
+       "share": 0.09
+      },
+      {
+       "color": "#38e1ff",
+       "share": 0.07
+      },
+      {
+       "color": "#0a0e14",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#38e1ff",
+      "hsl": {
+       "h": 189,
+       "s": 1,
+       "l": 0.61
+      },
+      "fg": "#0a0e14"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 10,
+     "height": 43,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "从地基开始读",
+      "直达推理前沿"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 1,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "footer.footer → rgb(34, 48, 71) 0px -1px 0px 0px"
+     ],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 16,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 23,
+     "boxRadius": 14,
+     "squareMedia": 1,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 516
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "canvas",
+      "ratio": 0.87
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 58,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": []
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 4727,
+    "margins": {
+     "left": 16,
+     "right": 21
+    },
+    "sections": [
+     {
+      "sel": "section.hero",
+      "tag": "section",
+      "top": 82,
+      "height": 341,
+      "words": 21,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "1024 程序员节",
+       "size": 27,
+       "tag": "h1"
+      },
+      "left": 21,
+      "right": 21,
+      "textLeft": 21,
+      "textRight": 21,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 653,
+      "height": 916,
+      "words": 29,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "地基：架构与表示",
+       "size": 22,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 41,
+      "textLeft": 16,
+      "textRight": 41,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 1605,
+      "height": 871,
+      "words": 30,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "语言模型：规模的艺术",
+       "size": 22,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 41,
+      "textLeft": 16,
+      "textRight": 41,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 2512,
+      "height": 463,
+      "words": 10,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "对齐与应用",
+       "size": 22,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 117,
+      "textLeft": 16,
+      "textRight": 117,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 3011,
+      "height": 667,
+      "words": 20,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "视觉与多模态",
+       "size": 22,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 68,
+      "textLeft": 16,
+      "textRight": 68,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 3715,
+      "height": 463,
+      "words": 19,
+      "media": 0,
+      "middle": 9,
+      "heading": {
+       "text": "推理与智能体",
+       "size": 22,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 41,
+      "textLeft": 16,
+      "textRight": 41,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.card",
+      "tag": "div",
+      "top": 4257,
+      "height": 143,
+      "words": 10,
+      "media": 0,
+      "middle": 10,
+      "heading": null,
+      "left": 33,
+      "right": 45,
+      "textLeft": 33,
+      "textRight": 45,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div.callout.warn",
+      "tag": "div",
+      "top": 4436,
+      "height": 147,
+      "words": 13,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 41,
+      "right": 36,
+      "textLeft": 41,
+      "textRight": 36,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "1024 程序员节 AI 核心概念科普",
+      "size": 27,
+      "top": 166,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 36,
+      "n": 22
+     }
+    ],
+    "leftBlocks": 22,
+    "bodySize": 13,
+    "stage": true,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "dark": true,
+    "ground": "#0a0e14",
+    "sidebar": null,
+    "topbar": {
+     "h": 58
+    },
+    "canvas": {
+     "left": 16,
+     "right": -549
+    },
+    "hero": {
+     "text": "1024 程序员节 AI 核心概念科普",
+     "words": 4,
+     "chars": 19,
+     "lines": 2,
+     "size": 27,
+     "vw": 6.9,
+     "font": "PingFang SC",
+     "weight": 700,
+     "tracking": -0.02,
+     "leading": 1.15,
+     "top": 166,
+     "tag": "h1",
+     "kind": "heading",
+     "align": "left",
+     "position": "left"
+    },
+    "charts": 2,
+    "layout": {
+     "panels": 24,
+     "firstScreen": 8,
+     "ragged": [],
+     "voids": []
+    },
+    "tiles": 0,
+    "panels": {
+     "count": 24,
+     "radii": [
+      [
+       14,
+       16
+      ],
+      [
+       12,
+       7
+      ],
+      [
+       0,
+       1
+      ]
+     ],
+     "heavyBorders": 0,
+     "borderSamples": [],
+     "heavyShadows": 0,
+     "softShadows": 0,
+     "shadowSamples": [],
+     "glass": 0
+    },
+    "chips": {
+     "count": 2,
+     "hues": 1,
+     "samples": [
+      {
+       "hue": 215,
+       "size": 38,
+       "radius": "10px"
+      },
+      {
+       "hue": 215,
+       "size": 38,
+       "radius": "10px"
+      }
+     ]
+    },
+    "numbers": {
+     "cells": 0,
+     "leftAligned": 0,
+     "figures": 7,
+     "tabularShare": 0,
+     "kpiMax": 17
+    },
+    "rows": null,
+    "chartHues": 0,
+    "placeholders": [],
+    "type": {
+     "under13": 0.1,
+     "tiny": 0,
+     "tinySamples": [],
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      22,
+      27
+     ]
+    },
+    "title": {
+     "text": "1024 程序员节\nAI 核心概念科普",
+     "size": 27,
+     "top": 166
+    },
+    "colourShare": 0.023
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "font-count",
+   "width": 1440,
+   "message": "3 typefaces in use (PingFang SC, Cascadia Code, Arial).",
+   "fix": "Two at most."
+  },
+  {
+   "level": "WARN",
+   "id": "tabular",
+   "width": 1440,
+   "message": "Only 0% of the figures use tabular numerals.",
+   "fix": "Set font-variant-numeric: tabular-nums on tables, KPIs and anything that updates, so digits keep their width.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "below-fold",
+   "width": 1440,
+   "message": "Only 11 of 23 blocks start on the first 1440px screen.",
+   "fix": "Every block the brief names shows its header and first rows on the first desktop screen: size the headline block to its question, cap long lists with \"View all\", and put time-sensitive blocks before long tables."
+  },
+  {
+   "level": "WARN",
+   "id": "app-title-size",
+   "width": 1440,
+   "message": "The h1 is 56px (\"1024 程序员节\nAI 核心概念科普\").",
+   "fix": "An app screen is not a landing page: the title is 18-32px (20-24px on a phone).",
+   "alsoAt": [
+    768
+   ]
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\admin\\WorkBuddy\\2026-10-24-13-57-09\\ai-1024\\screenshots\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\admin\\WorkBuddy\\2026-10-24-13-57-09\\ai-1024\\screenshots\\desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\admin\\WorkBuddy\\2026-10-24-13-57-09\\ai-1024\\screenshots\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\admin\\WorkBuddy\\2026-10-24-13-57-09\\ai-1024\\screenshots\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\admin\\WorkBuddy\\2026-10-24-13-57-09\\ai-1024\\screenshots\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\admin\\WorkBuddy\\2026-10-24-13-57-09\\ai-1024\\screenshots\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

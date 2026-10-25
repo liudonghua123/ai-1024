@@ -89,9 +89,9 @@ export default function ResidualFlow() {
       </svg>
       <p style={{ textAlign: 'center', fontSize: 13, color: 'var(--text-dim)', marginTop: 4 }}>
         反向传播中：梯度已穿透 <strong style={{ color: 'var(--ok)' }}>{Math.min(Math.round(gradDepth * 10) / 10 * 100, 100)}%</strong> 的层
-        {gradDepth >= 1 && ' —— 全部到达 ✅'}
+        {gradDepth >= 1 && ' —— 全部到达'}
         <button className="quiz-option" style={{ width: 'auto', margin: '0 0 0 14px', padding: '4px 14px' }} onClick={() => setRunning(r => !r)}>
-          {running ? '⏸' : '▶'}
+          {running ? '暂停' : '播放'}
         </button>
       </p>
       <div className="callout ok">

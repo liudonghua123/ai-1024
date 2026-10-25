@@ -1,0 +1,30 @@
+/* ============ 动态 SVG 图标系统 ============ */
+.icon { display: inline-block; vertical-align: middle; overflow: visible; }
+
+/* 动画原语 */
+@keyframes iconPulse { 0%,100% { transform: scale(1); opacity: 1; } 50% { transform: scale(1.25); opacity: .65; } }
+@keyframes iconBlink { 0%,100% { opacity: 1; } 50% { opacity: .25; } }
+@keyframes iconDraw { 0% { stroke-dashoffset: 24; } 45%,100% { stroke-dashoffset: 0; } }
+@keyframes iconSpinSlow { to { transform: rotate(360deg); } }
+@keyframes iconFlow { 0%,100% { opacity: .25; } 50% { opacity: 1; } }
+
+.icon-pulse { animation: iconPulse 2.2s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+.icon-blink { animation: iconBlink 1.6s steps(2) infinite; }
+.icon-draw { stroke-dasharray: 24; animation: iconDraw 3.2s ease-in-out infinite; }
+.icon-spinSlow { animation: iconSpinSlow 9s linear infinite; transform-origin: center; transform-box: fill-box; }
+.icon-flow { animation: iconFlow 1.8s ease-in-out infinite; }
+
+/* hover 时动画加速：卡片或按钮 hover 状态下 */
+.topic-card:hover .icon-pulse, .quiz-option:hover .icon-pulse, .theme-toggle:hover .icon,
+.nav-drop-item:hover .icon-pulse, a:hover > .icon .icon-pulse { animation-duration: 0.9s; }
+.topic-card:hover .icon-draw { animation-duration: 1.4s; }
+
+/* 图标徽章容器 */
+.icon-badge {
+  display: inline-flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .icon-pulse, .icon-blink, .icon-draw, .icon-spinSlow, .icon-flow { animation: none !important; }
+}

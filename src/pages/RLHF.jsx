@@ -1,4 +1,5 @@
 import RlhfDemo from '../components/RlhfDemo.jsx'
+import PageTitle from '../components/PageTitle.jsx'
 import Flow from '../components/Flow.jsx'
 import Quiz from '../components/Quiz.jsx'
 
@@ -18,7 +19,7 @@ loss_dpo = -E[log σ(β * (log π(chosen)/π_ref(chosen)
 export default function RLHF() {
   return (
     <div className="fade-in">
-      <h1 className="hero-title" style={{ fontSize: 'clamp(26px,4vw,40px)' }}>🎯 RLHF：让模型学会"好好说话"</h1>
+      <PageTitle icon='rlhf'>RLHF：让模型学会"好好说话"</PageTitle>
       <p className="body-text">
         预训练出来的模型只会接龙，你问"怎么写简历"，它可能回你三篇范文开头就停了。
         让它变得有用、诚实、无害的关键一步，是<strong>人类反馈强化学习</strong>——
