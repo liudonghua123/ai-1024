@@ -34,7 +34,7 @@ export default function ChainOfThought() {
     <div className="card">
       <h3 className="sub-title">思维链动画 · "让我们一步一步想"</h3>
       <div style={{ display: 'flex', gap: 8, marginBottom: 16 }}>
-        <button className="quiz-option" style={{ width: 'auto', margin: 0, padding: '8px 16px', borderColor: mode === 'direct' && wrong ? 'var(--accent-3)' : undefined }} onClick={() => restart('direct')}>
+        <button className="quiz-option" style={{ width: 'auto', margin: 0, padding: '8px 16px', borderColor: mode === 'direct' && wrong ? 'var(--bad)' : undefined }} onClick={() => restart('direct')}>
           不思考直接答
         </button>
         <button className="quiz-option" style={{ width: 'auto', margin: 0, padding: '8px 16px', borderColor: mode === 'cot' && step >= CHAIN.length ? 'var(--ok)' : undefined }} onClick={() => restart('cot')}>
@@ -57,24 +57,24 @@ export default function ChainOfThought() {
           return (
             <div key={i} style={{ display: 'flex', alignItems: 'stretch' }}>
               {i > 0 && (
-                <div style={{ display: 'flex', alignItems: 'center', padding: '0 6px', color: fail ? 'var(--accent-3)' : 'var(--accent-2)', fontSize: 18 }}>
+                <div style={{ display: 'flex', alignItems: 'center', padding: '0 6px', color: fail ? 'var(--bad)' : 'var(--accent)', fontSize: 18 }}>
                   {mode === 'direct' && i === CHAIN.length - 1 ? '×' : '→'}
                 </div>
               )}
               <div
                 style={{
                   maxWidth: 250, padding: '10px 14px', borderRadius: 10, fontSize: 13,
-                  border: `1.5px solid ${fail ? 'var(--accent-3)' : i === 0 ? 'var(--accent-2)' : i === CHAIN.length - 1 ? (fail ? 'var(--accent-3)' : 'var(--ok)') : 'var(--border)'}`,
+                  border: `1.5px solid ${fail ? 'var(--bad)' : i === 0 ? 'var(--accent)' : i === CHAIN.length - 1 ? (fail ? 'var(--bad)' : 'var(--ok)') : 'var(--border)'}`,
                   background: fail ? 'rgba(255,92,138,.08)' : i === 0 ? 'rgba(124,92,255,.08)' : 'var(--panel-2)',
                   animation: 'fadeInUp 0.45s ease both',
                   lineHeight: 1.7,
                 }}
               >
-                <div style={{ fontFamily: 'var(--mono)', fontSize: 10.5, marginBottom: 4, color: fail ? 'var(--accent-3)' : 'var(--accent)' }}>
+                <div style={{ fontFamily: 'var(--mono)', fontSize: 10.5, marginBottom: 4, color: fail ? 'var(--bad)' : 'var(--accent)' }}>
                   {c.step}
                 </div>
                 {c.text}
-                {fail && <div style={{ marginTop: 4, fontSize: 12, color: 'var(--accent-3)' }}>—— 跳步导致算错：44</div>}
+                {fail && <div style={{ marginTop: 4, fontSize: 12, color: 'var(--bad)' }}>—— 跳步导致算错：44</div>}
               </div>
             </div>
           )

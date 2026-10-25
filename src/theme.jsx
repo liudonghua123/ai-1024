@@ -25,7 +25,7 @@ export function ThemeProvider({ children }) {
       meta.name = 'theme-color'
       document.head.appendChild(meta)
     }
-    meta.content = theme === 'dark' ? '#0a0e14' : '#f4f7fb'
+    meta.content = theme === 'dark' ? '#000000' : '#fafafa'
   }, [theme])
 
   const toggle = () => setTheme(t => (t === 'dark' ? 'light' : 'dark'))

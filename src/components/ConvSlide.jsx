@@ -83,7 +83,7 @@ export default function ConvSlide() {
           </svg>
         </div>
 
-        <div style={{ fontSize: 24, color: 'var(--accent-2)', animation: 'arrowPulse 1.2s ease-in-out infinite' }}></div>
+        <div style={{ fontSize: 24, color: 'var(--accent)', animation: 'arrowPulse 1.2s ease-in-out infinite' }}></div>
 
         {/* 输出 */}
         <div>

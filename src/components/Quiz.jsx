@@ -5,7 +5,7 @@ export default function Quiz({ question, options, answer, explain }) {
   const [picked, setPicked] = useState(null)
 
   return (
-    <div className="card" style={{ borderColor: 'var(--accent-2)' }}>
+    <div className="card" style={{ borderColor: 'var(--accent)' }}>
       <h3 className="sub-title"> 随堂测验</h3>
       <p className="body-text" style={{ color: 'var(--text)' }}>{question}</p>
       {options.map((op, i) => {

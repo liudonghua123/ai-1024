@@ -40,14 +40,14 @@ export default function MoERouter() {
         </div>
 
         <svg width="60" height="40" viewBox="0 0 60 40">
-          <path d="M4 20 C 20 20, 38 20, 56 20" stroke="var(--accent-2)" strokeWidth="2.5" fill="none" strokeDasharray="6 5" style={{ animation: 'dashFlow 1s linear infinite' }} />
-          <polygon points="56,20 48,15 48,25" fill="var(--accent-2)" />
+          <path d="M4 20 C 20 20, 38 20, 56 20" stroke="var(--accent)" strokeWidth="2.5" fill="none" strokeDasharray="6 5" style={{ animation: 'dashFlow 1s linear infinite' }} />
+          <polygon points="56,20 48,15 48,25" fill="var(--accent)" />
           <style>{`@keyframes dashFlow { to { stroke-dashoffset: -11; } }`}</style>
         </svg>
 
         <div style={{ textAlign: 'center' }}>
           <div style={{ fontSize: 13, color: 'var(--text-dim)', marginBottom: 6 }}>Router 打分</div>
-          <div style={{ padding: '10px 14px', borderRadius: 12, border: '1.5px dashed var(--accent-2)', fontFamily: 'var(--mono)', fontSize: 12, color: 'var(--accent-2)' }}>
+          <div style={{ padding: '10px 14px', borderRadius: 12, border: '1.5px dashed var(--accent)', fontFamily: 'var(--mono)', fontSize: 12, color: 'var(--accent)' }}>
             softmax(W·x)
           </div>
         </div>

@@ -26,13 +26,17 @@ export default function MatrixRain() {
       raf = requestAnimationFrame(draw)
       if (t - last < 66) return // ~15fps，够用且省电
       last = t
-      ctx.fillStyle = 'rgba(10, 14, 20, 0.14)'
+      // 残影层与主题底色一致，避免亮色主题下黑 canvas 变成灰块
+      const light = document.documentElement.dataset.theme === 'light'
+      ctx.fillStyle = light ? 'rgba(250, 250, 250, 0.14)' : 'rgba(0, 0, 0, 0.14)'
       ctx.fillRect(0, 0, canvas.width, canvas.height)
       ctx.font = `${fontSize}px monospace`
       for (let i = 0; i < cols; i++) {
         const ch = chars[(Math.random() * chars.length) | 0]
         const y = drops[i] * fontSize
-        ctx.fillStyle = Math.random() > 0.975 ? '#bafff4' : '#1d7a6f'
+        ctx.fillStyle = light
+          ? (Math.random() > 0.975 ? '#7c5cff' : 'rgba(124, 92, 255, 0.35)')
+          : (Math.random() > 0.975 ? '#bafff4' : '#1d7a6f')
         ctx.fillText(ch, i * fontSize, y)
         if (y > canvas.height && Math.random() > 0.976) drops[i] = 0
         drops[i]++

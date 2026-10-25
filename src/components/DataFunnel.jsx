@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 
 const STAGES = [
-  { name: '全网抓取', n: '5 万亿 token', desc: 'Common Crawl 原始网页：色情、乱码、重复、垃圾内容混杂。', pct: 100, color: 'var(--accent-3)' },
+  { name: '全网抓取', n: '5 万亿 token', desc: 'Common Crawl 原始网页：色情、乱码、重复、垃圾内容混杂。', pct: 100, color: 'var(--bad)' },
   { name: '规则清洗', n: '≈ 2.4 万亿', desc: '去重（MinHash）、语言检测、广告/毒性过滤、质量打分。', pct: 48, color: 'var(--warn)' },
   { name: '模型过滤', n: '≈ 1.4 万亿', desc: '用快判别模型给每条打"教育价值分"，只留高质量。', pct: 28, color: 'var(--accent)' },
   { name: '混合配比', n: '≈ 1.2 万亿', desc: '代码 : 数学 : 多语言按黄金比例混入，防止短板。', pct: 24, color: 'var(--ok)' },

@@ -33,7 +33,7 @@ export default function ResidualFlow() {
       <svg viewBox={`0 0 ${W} ${H}`} style={{ width: '100%', maxWidth: 560, display: 'block', margin: '0 auto' }}>
         <defs>
           <marker id="arrowhead" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto">
-            <polygon points="0 0, 7 3, 0 6" fill="var(--accent-2)" />
+            <polygon points="0 0, 7 3, 0 6" fill="var(--accent)" />
           </marker>
           <marker id="arrowhead-g" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto">
             <polygon points="0 0, 7 3, 0 6" fill="var(--ok)" />
@@ -55,8 +55,8 @@ export default function ResidualFlow() {
         })}
 
         {/* 变换路径（竖线贯穿层） */}
-        <line x1={xL} y1={yOf(0)} x2={xL} y2={yOf(LAYERS - 1)} stroke="var(--accent-2)" strokeWidth="2" markerEnd="url(#arrowhead)" />
-        <text x={xL - 90} y={H / 2} fontSize="11" fill="var(--accent-2)" fontFamily="var(--sans)" transform={`rotate(-90, ${xL - 90}, ${H / 2})`} textAnchor="middle">
+        <line x1={xL} y1={yOf(0)} x2={xL} y2={yOf(LAYERS - 1)} stroke="var(--accent)" strokeWidth="2" markerEnd="url(#arrowhead)" />
+        <text x={xL - 90} y={H / 2} fontSize="11" fill="var(--accent)" fontFamily="var(--sans)" transform={`rotate(-90, ${xL - 90}, ${H / 2})`} textAnchor="middle">
           变换路径 F(x)
         </text>
 

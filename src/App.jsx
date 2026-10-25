@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, useLocation } from 'react-router-dom'
 import Navbar from './components/Navbar.jsx'
 import Home from './pages/Home.jsx'
 import Transformer from './pages/Transformer.jsx'
@@ -17,11 +17,15 @@ import Efficient from './pages/Efficient.jsx'
 import DataOps from './pages/DataOps.jsx'
 import CoT from './pages/CoT.jsx'
 import { ThemeProvider } from './theme.jsx'
+import useReveal from './useReveal.js'
 
 export default function App() {
+  const location = useLocation()
+  useReveal([location.pathname])
   return (
     <ThemeProvider>
       <div className="app">
+        <div className="grain" aria-hidden="true" />
         <Navbar />
         <main className="main">
           <Routes>

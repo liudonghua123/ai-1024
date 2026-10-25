@@ -72,13 +72,13 @@ export default function GanBattle() {
         ))}
         <line x1={px(0.5)} y1={20} x2={px(0.5)} y2={H - 25} stroke="var(--ok)" strokeWidth="1" strokeDasharray="5 4" opacity="0.6" />
         <text x={px(0.5)} y={16} textAnchor="middle" fontSize="10" fill="var(--ok)">纳什均衡</text>
-        <polyline points={dPath} fill="none" stroke="var(--accent-3)" strokeWidth="2.4" />
+        <polyline points={dPath} fill="none" stroke="var(--bad)" strokeWidth="2.4" />
         <polyline points={gPath} fill="none" stroke="var(--ok)" strokeWidth="2.4" />
-        <text x={W - 150} y={py(0.9)} fontSize="11" fill="var(--accent-3)">D 判别准确率</text>
+        <text x={W - 150} y={py(0.9)} fontSize="11" fill="var(--bad)">D 判别准确率</text>
         <text x={W - 150} y={py(0.75)} fontSize="11" fill="var(--ok)">G 以假乱真度</text>
       </svg>
       <p style={{ textAlign: 'center', fontSize: 13, color: 'var(--text-dim)' }}>
-        训练步数 {step % (STEPS + 30)} · D 准确率 <strong style={{ color: 'var(--accent-3)' }}>{dAcc.toFixed(2)}</strong>（越接近 0.5，G 越强）
+        训练步数 {step % (STEPS + 30)} · D 准确率 <strong style={{ color: 'var(--bad)' }}>{dAcc.toFixed(2)}</strong>（越接近 0.5，G 越强）
         <button className="quiz-option" style={{ width: 'auto', margin: '0 0 0 14px', padding: '4px 14px' }} onClick={() => { setStep(0); setRunning(r => !r) }}>
           {running ? '重放' : '继续'}
         </button>

@@ -16,7 +16,7 @@ const WORDS = [
   { w: 'BUG', x: 28, y: 10, g: 'tech' },
 ]
 const GROUP_COLOR = {
-  royal: 'var(--accent-2)',
+  royal: 'var(--accent)',
   animal: 'var(--ok)',
   fruit: 'var(--warn)',
   tech: 'var(--accent)',

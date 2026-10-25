@@ -92,20 +92,16 @@ export default function Home() {
 
       {/* 分板块 */}
       {SECTIONS.map(sec => (
-        <div key={sec.title}>
+        <div key={sec.title} className="reveal">
           <h2 className="section-title">{sec.title}</h2>
-          <p style={{ color: 'var(--text-dim)', fontSize: 13.5, margin: '-8px 0 14px' }}>
+          <p style={{ color: 'var(--text-dim)', fontSize: 14, margin: '-8px 0 16px' }}>
             {sec.tagline}
           </p>
           <div className="topic-grid">
-            {sec.topics.map(t => (
-              <NavLink key={t.to} to={t.to} className="topic-card">
-                {t.fresh && <span style={{
-                  position: 'absolute', top: 14, right: 14, fontSize: 10.5,
-                  fontFamily: 'var(--mono)', color: 'var(--ok)',
-                  border: '1px solid var(--ok)', borderRadius: 20, padding: '2px 9px',
-                }}>NEW</span>}
-                <div className="tc-icon"><IconBadge name={t.icon} size={46} /></div>
+            {sec.topics.map((t, i) => (
+              <NavLink key={t.to} to={t.to} className="topic-card" style={i % 2 === 1 ? { transform: 'translateY(16px)' } : undefined}>
+                {t.fresh && <span className="tc-new">NEW</span>}
+                <div className="tc-icon"><IconBadge name={t.icon} size={44} /></div>
                 <h3>{t.title}</h3>
                 <p>{t.desc}</p>
                 <span className="tc-go">开始阅读 <Icon name="arrow" size={14} /></span>
@@ -116,6 +112,7 @@ export default function Home() {
       ))}
 
       {/* 技术主线 */}
+      <div className="reveal">
       <h2 className="section-title">一条主线串起来</h2>
       <Flow
         label="技术主线（从地基到前沿）"
@@ -127,8 +124,9 @@ export default function Home() {
         ]}
         arrows={[{ label: '架构统一' }, { label: '能力涌现' }, { label: '连接现实' }]}
       />
+      </div>
 
-      <div className="callout warn" style={{ marginTop: 36 }}>
+      <div className="callout warn" style={{ marginTop: 48 }}>
         <strong>为什么是 1024？</strong> 2¹⁰ = 1024，程序员最熟悉的数字之一（1 KB = 1024 B）。
         祝伟大的主人们：代码无 BUG，显存够用，loss 平稳收敛。
       </div>

@@ -39,7 +39,7 @@ export default function LoraMatmul() {
         <div style={{ fontSize: 26, color: 'var(--accent)', fontFamily: 'var(--mono)' }}>+</div>
         {boxStyle('A', 'var(--ok)', 'A ∈ ℝ⁴⁰⁹⁶ˣ⁸', '降维投影，仅 3.3 万参数', false)}
         <div style={{ fontSize: 26, color: 'var(--accent)', fontFamily: 'var(--mono)' }}>×</div>
-        {boxStyle('B', 'var(--accent-2)', 'B ∈ ℝ⁸ˣ⁴⁰⁹⁶', '升维还原，仅 3.3 万参数', false)}
+        {boxStyle('B', 'var(--accent)', 'B ∈ ℝ⁸ˣ⁴⁰⁹⁶', '升维还原，仅 3.3 万参数', false)}
         <div style={{ fontSize: 26, color: 'var(--accent)', fontFamily: 'var(--mono)' }}>=</div>
         <div style={{ textAlign: 'center', padding: '14px 18px', borderRadius: 12, border: '2px solid var(--warn)', background: 'rgba(255,179,71,.06)' }}>
           <div style={{ fontFamily: 'var(--mono)', fontSize: 15, color: 'var(--warn)' }}>ΔW ≈ A·B</div>
