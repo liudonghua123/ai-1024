@@ -10,6 +10,7 @@ import RAG from './pages/RAG.jsx'
 import RLHF from './pages/RLHF.jsx'
 import Multimodal from './pages/Multimodal.jsx'
 import Agent from './pages/Agent.jsx'
+import Papers from './pages/Papers.jsx'
 import { ThemeProvider } from './theme.jsx'
 
 export default function App() {
@@ -29,6 +30,7 @@ export default function App() {
             <Route path="/rlhf" element={<RLHF />} />
             <Route path="/multimodal" element={<Multimodal />} />
             <Route path="/agent" element={<Agent />} />
+            <Route path="/papers" element={<Papers />} />
           </Routes>
         </main>
         <footer className="footer">

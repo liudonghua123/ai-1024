@@ -65,6 +65,90 @@ html, body {
 
 .app { min-height: 100vh; display: flex; flex-direction: column; position: relative; }
 
+/* ---------- Hero CTA ---------- */
+.hero-cta {
+  display: inline-block; text-decoration: none;
+  padding: 12px 26px; border-radius: 12px;
+  font-size: 14.5px; font-weight: 600;
+  color: var(--text); background: var(--panel);
+  border: 1.5px solid var(--border);
+  transition: all 0.25s;
+}
+.hero-cta:hover { border-color: var(--accent); transform: translateY(-2px); }
+.hero-cta.primary {
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  color: #0a0e14; border-color: transparent;
+}
+:root[data-theme='light'] .hero-cta.primary { color: #fff; }
+.hero-cta.primary:hover { box-shadow: 0 8px 24px rgba(56, 225, 255, 0.25); }
+
+/* ---------- Timeline ---------- */
+.timeline {
+  display: flex; gap: 0; overflow-x: auto; padding: 14px 0 10px;
+  -webkit-overflow-scrolling: touch;
+}
+.timeline-item {
+  flex: 1; min-width: 150px;
+  display: flex; flex-direction: column; gap: 4px;
+  padding: 14px 16px; margin: 0 4px;
+  background: var(--panel); border: 1px solid var(--border); border-radius: 12px;
+  text-decoration: none; position: relative;
+  transition: all 0.25s;
+}
+.timeline-item:hover { border-color: var(--accent); transform: translateY(-3px); }
+.timeline-item .tl-year {
+  font-family: var(--mono); font-weight: 700; font-size: 17px;
+  background: var(--hero-grad);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
+}
+.timeline-item .tl-event { font-size: 12.5px; color: var(--text-dim); line-height: 1.5; }
+
+/* ---------- Paper wall ---------- */
+.paper-wall {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(128px, 1fr));
+  gap: 10px; margin: 18px 0;
+}
+.paper-tile {
+  position: relative;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  gap: 4px; padding: 20px 8px 12px; cursor: pointer;
+  background: var(--panel); border: 1.5px solid var(--border); border-radius: 14px;
+  transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+  font-family: var(--sans);
+}
+.paper-tile:hover { transform: translateY(-4px); border-color: var(--tile-color); box-shadow: 0 8px 20px rgba(0,0,0,.25); }
+.paper-tile .pt-glyph {
+  font-size: 30px; line-height: 1; color: var(--tile-color); margin-bottom: 6px;
+  font-family: var(--mono); font-weight: 700;
+}
+.paper-tile .pt-name { font-size: 13px; font-weight: 700; color: var(--text); word-break: break-word; text-align: center; }
+.paper-tile .pt-year { font-size: 11px; color: var(--text-dim); font-family: var(--mono); }
+.paper-tile.paper-hot { border-color: var(--tile-color); }
+.paper-tile .pt-badge {
+  position: absolute; top: 7px; right: 7px;
+  font-size: 9.5px; padding: 2px 7px; border-radius: 12px;
+  background: var(--tile-color); color: #0a0e14; font-weight: 700;
+  cursor: pointer;
+}
+:root[data-theme='light'] .paper-tile .pt-badge { color: #fff; }
+
+.paper-modal-mask {
+  position: fixed; inset: 0; z-index: 100;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  display: flex; align-items: center; justify-content: center;
+  padding: 20px;
+  animation: fadeInUp 0.25s ease both;
+}
+.paper-modal {
+  background: var(--panel); border: 1px solid var(--border); border-radius: 16px;
+  padding: 24px; max-width: 480px; width: 100%;
+  box-shadow: var(--shadow);
+  max-height: 80vh; overflow-y: auto;
+}
+
 /* ---------- Navbar ---------- */
 .navbar {
   position: sticky; top: 0; z-index: 50;
@@ -90,6 +174,45 @@ html, body {
 }
 .nav-link:hover { color: var(--text); background: var(--panel); }
 .nav-link.active { color: var(--accent); border-color: var(--border); background: var(--panel); }
+
+/* 桌面端分组下拉 */
+.nav-desktop { display: flex; gap: 4px; margin-left: auto; align-items: center; }
+.nav-group { position: relative; }
+.nav-group-btn {
+  background: transparent; border: 1px solid transparent; cursor: pointer;
+  color: var(--text-dim); font-size: 14px; font-family: var(--sans);
+  padding: 8px 13px; border-radius: 8px; transition: all 0.2s;
+}
+.nav-group-btn:hover, .nav-group-btn.active { color: var(--text); background: var(--panel); }
+.nav-group-btn.active { color: var(--accent); }
+.nav-dropdown {
+  position: absolute; top: calc(100% + 6px); left: 0; z-index: 60;
+  min-width: 190px; padding: 6px;
+  background: var(--panel); border: 1px solid var(--border); border-radius: 12px;
+  box-shadow: var(--shadow);
+  opacity: 0; visibility: hidden; transform: translateY(-6px);
+  transition: all 0.2s;
+}
+.nav-group:hover .nav-dropdown, .nav-group:focus-within .nav-dropdown {
+  opacity: 1; visibility: visible; transform: none;
+}
+.nav-drop-item {
+  display: flex; align-items: center; gap: 8px;
+  padding: 9px 12px; border-radius: 8px;
+  color: var(--text-dim); text-decoration: none; font-size: 13.5px;
+  transition: all 0.15s;
+}
+.nav-drop-item:hover { background: var(--panel-2); color: var(--text); }
+.nav-drop-item.active { color: var(--accent); background: var(--panel-2); }
+.nav-link.big { font-weight: 700; }
+
+.nav-group-label {
+  font-size: 11px; color: var(--accent); font-family: var(--mono);
+  padding: 10px 14px 2px; opacity: 0.85;
+  border-top: 1px dashed var(--border); margin-top: 6px;
+}
+.nav-group-label:first-child { border-top: none; margin-top: 0; }
+.nav-link.indent { padding-left: 26px; font-size: 14px; }
 
 /* 主题切换按钮 */
 .theme-toggle {
@@ -310,6 +433,7 @@ table.compare td:first-child { color: var(--text); font-weight: 600; }
   /* 导航：汉堡菜单 */
   .nav-burger { display: flex; }
   .navbar { padding: 10px 14px; gap: 10px; }
+  .nav-desktop { display: none; }
   .nav-links {
     display: none;
     position: absolute; top: 100%; left: 0; right: 0;
@@ -343,6 +467,10 @@ table.compare td:first-child { color: var(--text); font-weight: 600; }
   .theme-toggle { width: 38px; height: 38px; font-size: 17px; }
   .nav-burger { width: 38px; height: 38px; }
   .nav-logo { font-size: 16px; }
+  .paper-wall { grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: 8px; }
+  .paper-tile { padding: 14px 6px 9px; }
+  .paper-tile .pt-glyph { font-size: 24px; }
+  .paper-tile .pt-name { font-size: 11.5px; }
 }
 
 /* 触屏：hover 效果替代 */
