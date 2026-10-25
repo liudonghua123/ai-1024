@@ -8,14 +8,18 @@ const MENUS = [
     items: [
       { to: '/transformer', label: 'Transformer', icon: '🧲' },
       { to: '/embedding', label: 'Token 与 Embedding', icon: '🗺️' },
+      { to: '/cnn', label: 'CNN 视觉革命', icon: '👁️' },
+      { to: '/pretrain', label: '预训练范式', icon: '🎓' },
     ],
   },
   {
     group: '语言模型',
     items: [
       { to: '/llm', label: 'LLM 大语言模型', icon: '💬' },
+      { to: '/scaling', label: 'Scaling Laws', icon: '📈' },
       { to: '/rlhf', label: 'RLHF 对齐', icon: '🎯' },
       { to: '/rag', label: 'RAG 检索增强', icon: '📚' },
+      { to: '/efficient', label: '高效训练与微调', icon: '⚙️' },
     ],
   },
   {
@@ -27,8 +31,11 @@ const MENUS = [
     ],
   },
   {
-    group: '智能体',
-    items: [{ to: '/agent', label: 'AI Agent', icon: '🤖' }],
+    group: '推理与智能体',
+    items: [
+      { to: '/cot', label: '思维链 CoT', icon: '⛓️' },
+      { to: '/agent', label: 'AI Agent', icon: '🤖' },
+    ],
   },
 ]
 
@@ -60,16 +67,10 @@ export default function Navbar() {
             </div>
           </div>
         ))}
-        <NavLink to="/papers" className={({ isActive }) => 'nav-link big' + (isActive ? ' active' : '')}>
-          🖼️ 论文墙
-        </NavLink>
       </div>
 
       {/* 移动端：汉堡展开全部分组 */}
       <div className={`nav-links ${open ? 'open' : ''}`}>
-        <NavLink to="/papers" className={({ isActive }) => 'nav-link' + (isActive ? ' active' : '')} onClick={() => setOpen(false)}>
-          🖼️ 论文墙 · 36 篇
-        </NavLink>
         {MENUS.map(m => (
           <div key={m.group}>
             <div className="nav-group-label">{m.group}</div>

@@ -1,54 +1,67 @@
 import { NavLink } from 'react-router-dom'
 import MatrixRain from '../components/MatrixRain.jsx'
 import Flow from '../components/Flow.jsx'
-import { PAPERS } from '../data/papers.js'
 
 const SECTIONS = [
   {
     title: '地基：架构与表示',
-    tagline: '一切的起点——注意力和向量',
+    tagline: '一切的起点——卷积、注意力和向量',
     topics: [
-      { to: '/transformer', icon: '🧲', title: 'Transformer', desc: '2017 年《Attention Is All You Need》，用注意力取代循环网络，成为一切的地基。' },
-      { to: '/embedding', icon: '🗺️', title: 'Token 与 Embedding', desc: '文字怎么变成向量？语义空间里的几何魔法，万物皆可向量化的起点。' },
+      { to: '/cnn', icon: '👁️', title: 'CNN 视觉革命', desc: 'AlexNet 引爆、ResNet 破百层之壁、卷积如何看世界。', fresh: true },
+      { to: '/transformer', icon: '🧲', title: 'Transformer', desc: '2017 年《Attention Is All You Need》，用注意力取代循环网络。' },
+      { to: '/embedding', icon: '🗺️', title: 'Token 与 Embedding', desc: '文字怎么变成向量？语义空间里的几何魔法。' },
+      { to: '/pretrain', icon: '🎓', title: '预训练范式', desc: 'BERT vs GPT 两种完形填空，理解与生成的分岔路。', fresh: true },
     ],
   },
   {
-    title: '语言模型：从接龙到对齐',
-    tagline: 'GPT 们是怎么炼成的',
+    title: '语言模型：规模的艺术',
+    tagline: '大力出奇迹的科学依据',
     topics: [
-      { to: '/llm', icon: '💬', title: 'LLM 大语言模型', desc: 'GPT / Claude / Gemini 的本质：超大号文字接龙机器 + Scaling Law。' },
-      { to: '/rlhf', icon: '🎯', title: 'RLHF 对齐', desc: '人类反馈强化学习：模型怎么学会有用、诚实、无害地说话。' },
-      { to: '/rag', icon: '📚', title: 'RAG 检索增强', desc: '先查资料再开口：让 LLM 开卷考试，知识可更新、答案可溯源。' },
+      { to: '/llm', icon: '💬', title: 'LLM 大语言模型', desc: 'GPT 的本质：超大号文字接龙机器。' },
+      { to: '/scaling', icon: '📈', title: 'Scaling Laws', desc: '幂律曲线、Chinchilla 修正与三堵墙。', fresh: true },
+      { to: '/efficient', icon: '⚙️', title: '高效训练与微调', desc: 'ZeRO / MoE / LoRA / 蒸馏——算力的四两拨千斤。', fresh: true },
+      { to: '/dataops', icon: '🗄️', title: '数据工程', desc: '5 万亿 token 的提纯漏斗与数据配比的隐藏知识。', fresh: true },
     ],
   },
   {
-    title: '视觉生成与多模态',
+    title: '对齐与应用',
+    tagline: '从会说到会好好说',
+    topics: [
+      { to: '/rlhf', icon: '🎯', title: 'RLHF 对齐', desc: '人类反馈强化学习：有用、诚实、无害。' },
+      { to: '/rag', icon: '📚', title: 'RAG 检索增强', desc: '先查资料再开口：开卷考试可溯源。' },
+    ],
+  },
+  {
+    title: '视觉与多模态',
     tagline: '从 GAN 到 Sora 的图像叙事',
     topics: [
-      { to: '/stable-diffusion', icon: '🎨', title: 'Stable Diffusion', desc: '文生图代表：把噪声一步步"炼"成图像，还藏在潜空间里省算力。' },
-      { to: '/dit', icon: '🧩', title: 'DiT', desc: 'Diffusion Transformer：Sora 背后的骨架，扩散主干的 Transformer 化。' },
-      { to: '/multimodal', icon: '🌉', title: '多模态与 CLIP', desc: '让图像和文字说同一种语言：双塔对比学习，零标注的跨模态对齐。' },
+      { to: '/stable-diffusion', icon: '🎨', title: 'Stable Diffusion', desc: '把噪声一步步"炼"成图像，潜空间省算力。' },
+      { to: '/dit', icon: '🧩', title: 'DiT', desc: 'Sora 背后的骨架：扩散主干的 Transformer 化。' },
+      { to: '/multimodal', icon: '🌉', title: '多模态与 CLIP', desc: '双塔对比学习，图文说同一种语言。' },
     ],
   },
   {
-    title: '智能体：从会说到会做',
+    title: '推理与智能体',
     tagline: '2025 之后的主战场',
     topics: [
-      { to: '/agent', icon: '🤖', title: 'AI Agent', desc: '给大脑装上手脚：工具调用 + 记忆 + ReAct 循环，自主完成任务。' },
+      { to: '/cot', icon: '⛓️', title: '思维链 CoT', desc: '"一步一步想"如何变成 o1/R1 的训练范式。', fresh: true },
+      { to: '/agent', icon: '🤖', title: 'AI Agent', desc: '工具调用 + 记忆 + ReAct 循环，从会说到会做。' },
     ],
   },
 ]
 
 const TIMELINE = [
-  { year: '2012', event: 'AlexNet 引爆深度学习', to: '/papers' },
-  { year: '2014', event: 'Attention / GAN / Seq2Seq', to: '/papers' },
+  { year: '2012', event: 'AlexNet 引爆深度学习', to: '/cnn' },
+  { year: '2015', event: 'ResNet 破百层之壁', to: '/cnn' },
   { year: '2017', event: 'Transformer 统一架构', to: '/transformer' },
-  { year: '2020', event: 'GPT-3 + Scaling Laws', to: '/llm' },
-  { year: '2022', event: 'SD / RLHF / CoT 三线齐爆', to: '/papers' },
-  { year: '2024', event: '工程化与开源深水区', to: '/papers' },
+  { year: '2018', event: 'BERT vs GPT 分岔', to: '/pretrain' },
+  { year: '2020', event: 'GPT-3 + Scaling Laws', to: '/scaling' },
+  { year: '2022', event: 'SD / RLHF / CoT 三线齐爆', to: '/rlhf' },
+  { year: '2024', event: '推理模型时代', to: '/cot' },
 ]
 
 export default function Home() {
+  const total = SECTIONS.reduce((n, s) => n + s.topics.length, 0)
   return (
     <div className="fade-in">
       <MatrixRain />
@@ -57,17 +70,16 @@ export default function Home() {
         <h1 className="hero-title">1024 程序员节<br />AI 核心概念科普</h1>
         <p className="sub">
           不堆公式、不念论文。用动画、流程图和一点冷幽默，
-          讲清楚 AI 的 {PAPERS.length} 篇经典论文与 9 个核心概念——
-          从注意力机制到智能体，一条线串起大模型的技术全景。
+          讲清楚 AI 的 {total} 个核心概念——从 AlexNet 到推理模型，一条线串起大模型的技术全景。
         </p>
         <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' }}>
-          <NavLink to="/papers" className="hero-cta primary">🖼️ 进入论文墙 · 36 篇</NavLink>
-          <NavLink to="/transformer" className="hero-cta">🧲 从地基开始读</NavLink>
+          <NavLink to="/transformer" className="hero-cta primary">🧲 从地基开始读</NavLink>
+          <NavLink to="/cot" className="hero-cta">⛓️ 直达推理前沿</NavLink>
         </div>
       </section>
 
       {/* 时间线 */}
-      <h2 className="section-title">二十年技术演进</h2>
+      <h2 className="section-title">十四年技术演进</h2>
       <div className="timeline">
         {TIMELINE.map(t => (
           <NavLink key={t.year} to={t.to} className="timeline-item">
@@ -87,6 +99,11 @@ export default function Home() {
           <div className="topic-grid">
             {sec.topics.map(t => (
               <NavLink key={t.to} to={t.to} className="topic-card">
+                {t.fresh && <span style={{
+                  position: 'absolute', top: 14, right: 14, fontSize: 10.5,
+                  fontFamily: 'var(--mono)', color: 'var(--ok)',
+                  border: '1px solid var(--ok)', borderRadius: 20, padding: '2px 9px',
+                }}>NEW</span>}
                 <div className="tc-icon">{t.icon}</div>
                 <h3>{t.title}</h3>
                 <p>{t.desc}</p>
@@ -100,14 +117,14 @@ export default function Home() {
       {/* 技术主线 */}
       <h2 className="section-title">一条主线串起来</h2>
       <Flow
-        label="技术主线（从地基到应用）"
+        label="技术主线（从地基到前沿）"
         nodes={[
-          { title: 'Transformer / Embedding', desc: '地基：架构与表示', hot: true },
-          { title: 'LLM → RLHF', desc: '语言模型 + 对齐' },
-          { title: 'RAG / Agent', desc: '知识增强与自主行动', hot: true },
-          { title: 'SD → DiT / 多模态', desc: '视觉生成与跨模态' },
+          { title: 'CNN → Transformer', desc: '视觉与语言的地基', hot: true },
+          { title: '预训练 + Scaling', desc: '大力出奇迹' },
+          { title: 'RLHF + RAG', desc: '对齐与知识增强' },
+          { title: 'CoT / o1 → Agent', desc: '推理与自主行动', hot: true },
         ]}
-        arrows={[{ label: '承重墙' }, { label: '学会说话' }, { label: '连接现实' }]}
+        arrows={[{ label: '架构统一' }, { label: '能力涌现' }, { label: '连接现实' }]}
       />
 
       <div className="callout warn" style={{ marginTop: 36 }}>

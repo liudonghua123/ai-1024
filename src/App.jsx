@@ -10,7 +10,12 @@ import RAG from './pages/RAG.jsx'
 import RLHF from './pages/RLHF.jsx'
 import Multimodal from './pages/Multimodal.jsx'
 import Agent from './pages/Agent.jsx'
-import Papers from './pages/Papers.jsx'
+import CNN from './pages/CNN.jsx'
+import Pretrain from './pages/Pretrain.jsx'
+import Scaling from './pages/Scaling.jsx'
+import Efficient from './pages/Efficient.jsx'
+import DataOps from './pages/DataOps.jsx'
+import CoT from './pages/CoT.jsx'
 import { ThemeProvider } from './theme.jsx'
 
 export default function App() {
@@ -30,7 +35,12 @@ export default function App() {
             <Route path="/rlhf" element={<RLHF />} />
             <Route path="/multimodal" element={<Multimodal />} />
             <Route path="/agent" element={<Agent />} />
-            <Route path="/papers" element={<Papers />} />
+            <Route path="/cnn" element={<CNN />} />
+            <Route path="/pretrain" element={<Pretrain />} />
+            <Route path="/scaling" element={<Scaling />} />
+            <Route path="/efficient" element={<Efficient />} />
+            <Route path="/dataops" element={<DataOps />} />
+            <Route path="/cot" element={<CoT />} />
           </Routes>
         </main>
         <footer className="footer">
